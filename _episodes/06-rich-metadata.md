@@ -11,17 +11,36 @@ keypoints:
 - "First key point."
 ---
 
+### What is Metadata?
 
-- STEP 5: Create rich metadata (JSON-LD export from DataverseNL is enough)
+It is the data about the data
 
-- Examples:
-	- Video o tutorial to export or create metadata
-	- we use the metadata wizard https://maastrichtu-ids.github.io/fair-metadata-wizard/ to create the metadata of all the digital objects for the research website
+For example
 
-- Where to put
-	- Metatags on the website (we take the chunk of metadata download)
-	- Metatags also in the DRIVE folders
+Metadata by itself is plain text, in order to be meaningful for the further reuse it needs to be on a **machine-friendly** format. A **machine-friendly** format is for instance `HTML` which can live in a data landing page
 
-- Output:
-	- Link to project's metadata file
-	- Link of the digital objects
+### What is a Rich Metadata file?
+
+**Rich Metadata** is a metadata file on a **machine-friendly**  format.
+
+For example:
+
+### How to create a Rich Metadata file?
+
+There are many ways to do it.
+- Dataverse and download
+- Metadata wizard https://maastrichtu-ids.github.io/fair-metadata-wizard/
+- Nanosafety https://nsdra.github.io/nsdra-jsonld-metadata-generator-webapp/#
+
+
+### Where to put a Rich Metadata file?
+
+Everywhere your data is stored.
+- In the rot file of your project
+- In the data reposiory
+- In the Github repository
+- In the webpage of the project
+
+Example:
+
+The whole idea of Rich Metadata is because of search engine optimization and semantic web technlogies. In the web digital objects are semantically described, therefore can be found by bots (e.g. Search engines). This is what makes Digital Objects findable and accesible.
