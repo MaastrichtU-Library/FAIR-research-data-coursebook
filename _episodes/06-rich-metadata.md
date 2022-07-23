@@ -1,7 +1,7 @@
 ---
 title: "Rich Metadata"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 15
 questions:
 - "What is rich metadata?"
 objectives:
@@ -11,11 +11,23 @@ keypoints:
 - "First key point."
 ---
 
+> ## FAIR principles used in Data Archiving:  
+> **Findable**   
+> > FM-F2 (Machine-readability of Metadata) → [doi.org/10.25504/FAIRsharing.ztr3n9](https://doi.org/10.25504/FAIRsharing.ztr3n9)  
+>
+> **Interoperable**  
+> > FM-I1 (Use a Knowledge Representation Language) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.jLpL6i)  
+> > FM-I2 (Use FAIR Vocabularies) → [doi.org/10.25504/FAIRsharing.0A9kNV](https://doi.org/10.25504/FAIRsharing.0A9kNV)  
+>
+{: .checklist}
+
 ### What is Metadata?
 
 It is the data about the data
 
 For example
+
+There are may examples and resources 
 
 Metadata by itself is plain text, in order to be meaningful for the further reuse it needs to be on a **machine-friendly** format. A **machine-friendly** format is for instance `HTML` which can live in a data landing page
 

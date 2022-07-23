@@ -4,17 +4,29 @@ teaching: 10
 exercises: 15
 questions:
 - "What are data terms of use?"
-- "What is the relation between license and terms of use"
+- "What must they contain?"
+- "What format should they be?"
 objectives:
-- "First"
-- "Second"
+- "The participant will understand what data terms of use are with examples"
+- "The participant will be able to create a basic data terms of use text"
 keypoints:
-- "First key point."
+- "A License is the bare minimum requirement for 'Data Terms of Use."
+- "The 'Data Terms of Use' text is the legal basis of the refered data source"
+- "The data creator must create always a Terms of Use text along."
 ---
+
+> ## FAIR principles used in Data Terms of Use:  
+> **Accessible**   
+> > FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
+>
+> **Reusable**  
+> > FM-R1.1  (Accessible Usage License) → [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
+>
+{: .checklist}
 
 ### What are Data Terms of Use?
 
-Data Terms of Use referers to the terms, conditions, actions, legal considerations or licenced content when particlar digital object(s) is used (e.g. reusing datasets).  
+Data Terms of Use is a text that referers to the terms, conditions, actions, legal considerations or licenced content when particlar digital object(s) is used (e.g. reusing datasets).  
 
 An example is **The World Bank - Terms of Use for Datasets**   → [LINK TO EXAMPLE](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)  
 
@@ -32,21 +44,21 @@ As a general rule a good **Data Terms of Use** document must contan at least the
   - Work attribution
   - Disclaimer
 
-Nevertheless, depending on the use case the "Data Terms of Use" can be extended to different speific sections when involves more complex information, intrgration f databases or personal data is invlved. After all the "Data Terms of Use" is the legal basis of the refered Digital Object (e.g. dataset). i.e. on the light of public law, you can make someone liable for not compling to specific clauses. 
+Nevertheless, depending on the use case the "Data Terms of Use" text can be extended to different speific sections when involves more complex information, intrgration of databases or personal data is invlved. After all the "Data Terms of Use" text is the legal basis of the refered Digital Object (e.g. dataset). i.e. on the light of public law, you can make someone liable for not compling to specific clauses. 
 
 Nevertheless, when working in scientific projects we normally are participating within a greater scope in a scitific project or study. It is always recommended to check with the Principal Invistigaorr or Porject Managers wheter if **Data Terms of Use** are to be defined since, possibly there is already a **Data Policy** framework.
 
 An example is **Policy for use and oversight of samples and data arising from the Biomedical Resource of the 1958 Birth Cohort (National Child Development Study)**   → [LINK TO EXAMPLE](https://fairsharing.org/FAIRsharing.z09fg9)  
 Link to the original [Data Policy](https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf)
 
-> ## "Data Terms of Use" is the legal basis of the refered Digital Object
+> ## "Data Terms of Use" text is the legal basis of the refered data source
 >
 > **on the light of public law, you can make someone liable for not compling to specific clauses.**
 {: .callout}
 
 Some more specific sections are:
 
-### What format should it be?
+### What format should they be?
 
 The **Data Terms of Use** is a plain document, this document has the lenght and depth that the data owner sees fit, there is no right or wrings when drafting it. Normally is recommended to store this document in a `README` file, using an accessible format for example `.txt`, `.md` or `.html` so that any user can read it withouth needing any additional software.
 
@@ -133,3 +145,9 @@ What to do with KIDS DATA
 - Output:
 	- In case it's a document (README) then get the link
 	- In case it's a tailored policy project then register to a registry https://fairsharing.org/
+
+
+> ## Discussion  
+> Kids data   
+>
+{: .discussion}

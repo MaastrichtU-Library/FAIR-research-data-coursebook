@@ -1,7 +1,7 @@
 ---
 title: "Data Access Protocols"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 15
 questions:
 - "What are data access protocols?"
 - "Is Open Access a data access protocol?"
@@ -11,6 +11,16 @@ objectives:
 keypoints:
 - "First key point."
 ---
+
+> ## FAIR principles used in Data Access Protocols:  
+> **Accessible**   
+> > FM-A1.1 (Access Protocol) → [doi.org/10.25504/FAIRsharing.yDJci5](https://doi.org/10.25504/FAIRsharing.yDJci5)  
+> > FM-A1.2 (Access Authorization) → [doi.org/10.25504/FAIRsharing.EwnE1n](https://doi.org/10.25504/FAIRsharing.EwnE1n)  
+>
+> **Interoperable**  
+> > FM-I3 (Use Qualified References) → [doi.org/10.25504/FAIRsharing.B2sbNh](https://doi.org/10.25504/FAIRsharing.B2sbNh)  
+>
+{: .checklist}
 
 ### What are Data Access Protocols?
 
