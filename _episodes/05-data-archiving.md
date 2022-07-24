@@ -3,9 +3,9 @@ title: "Data Archiving"
 teaching: 10
 exercises: 15
 questions:
-- "What is Data Archiving?"
-- "Where to archive datasets?"
-- "What is a DOI, and why is it important."
+- "1 What is Data Archiving?"
+- "2 What are Data Repositories?"
+- "3 What is a DOI, and why is it important?"
 objectives:
 - "The participant will understand the importance of archiving datasets on trusted data repositories."
 - "The participant will learn the significance of the Digital Object Identifier (DOI)."
@@ -27,7 +27,7 @@ keypoints:
 {: .checklist}
 
 
-### What is Data Archiving?
+### 1. What is Data Archiving?
 
 "Data Archiving" is the long-term storage of research data, including all research disciplines. The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
 
@@ -35,7 +35,7 @@ keypoints:
 >
 {: .callout}
 
-### Where to archive datasets?
+### 2. What are Data Repositories?
 
 Datasets are archived in **Data repositories**. They are storage locations for digital objects. **Data repositories** can help make a researcher's data more discoverable by search engines (e.g. Google) and ultimately lead to potential reuse. Therefore, using storage can lead to increased citations of your work. Data repositories can also serve as backups during rare events where data are lost to the researcher and must be retrieved.
 
@@ -43,7 +43,7 @@ Datasets are archived in **Data repositories**. They are storage locations for d
 >
 {: .callout}
 
-Examples of data repositories
+Examples of data repositories  
 
 | Data Repository | About |
 |---|---|
@@ -56,6 +56,7 @@ Just like FigShare, many data repositories are for general use. They provide a l
 
 > ## Default recommendations for data repositories
 > [ZENODO](https://zenodo.org/) administrated by [CERN](https://home.cern/)  
+> [SURF Repository](https://repository.surfsara.nl/) administrated by [SURF](https://www.surf.nl/)  
 > [DataverseNL](https://dataverse.nl/)  administrated by [DANS](https://dans.knaw.nl/en/)
 {: .callout}
 
@@ -71,14 +72,20 @@ Quick characteristics of general purpose repositories:
 
 
 <img src="https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png" alt="hardvard">
-(Source: Harvard Medical School, RDM - Data Repositories. Accessed Jul-2022 - **datamanagement.hms.harvard.edu/share/data-repositories**)
+*Image: Harvard Medical School, RDM - Data Repositories. Accessed Jul-2022 - *datamanagement.hms.harvard.edu/share/data-repositories*
 
+
+#### [Original Hardvard Dataverse](https://dataverse.harvard.edu/dataverse/harvard)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MPQ0Tpgaxt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## There are also public registries where you can find trusted repositories for Data Archiving 
 > **Registry of Research Data Repositories (re3data)**  → [re3data.org//](https://www.re3data.org/)  
 > **PLOS ONE Recommended Repositories**  → [journals.plos.org/plosone/s/recommended-repositories](https://journals.plos.org/plosone/s/recommended-repositories)  
 > **NIH Recommended Repositories:**  → [sharing.nih.gov/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)  
 > **Nature - Scientific Data Guidelines:**  → [nature-com.mu.idm.oclc.org/sdata/policies/repositories](https://www-nature-com.mu.idm.oclc.org/sdata/policies/repositories)  
+> **OpenDOAR - Directory of Open Access Repositories**  →  [v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/)
 {: .prereq}
 
 
@@ -100,7 +107,7 @@ Quick characteristics of general purpose repositories:
 {: .challenge}
 
 
-### What is a DOI?
+### 3. What is a DOI, and why is it important?
 
 The DOI is a common identifier used for academic, professional, and governmental information such as articles, datasets, reports, and other supplemental information. The [International DOI Foundation (IDF)](https://www.doi.org/) is the agency that oversees DOIs. [CrossRef](https://www.crossref.org/) and [Datacite](https://datacite.org/) are two prominent not-for-profit registries that provide services to create or mint DOIs. Both have membership models where their clients are able to mint DOIs distinguished by their prefix. For example, DataCite features a [statistics page](https://stats.datacite.org/) where you can see registrations by members.
 
@@ -130,3 +137,9 @@ In the example above, the prefix is used by the Australian National Data Service
 > > {: .output}
 > {: .solution}
 {: .challenge}
+
+
+> ## Discussion  
+> Given that uploading sensitive research data such as interviews. Dicuss in group on how to archive this type of projects in a data reporostory
+>
+{: .discussion}

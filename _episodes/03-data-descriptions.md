@@ -3,10 +3,10 @@ title: "Data Descriptions"
 teaching: 10
 exercises: 15
 questions:
-- "What are Data Descriptions?"
-- "How to reuse Data Descriptions?"
-- "Are there standard ways for doing Data Descriptions?"
-- "What is the relation between Data Descriptions and Linked Data?"
+- "1 What are Data Descriptions?"
+- "2 How to reuse Data Descriptions?"
+- "3 Are there standard ways for doing Data Descriptions?"
+- "4 What is the relation between Data Descriptions and Linked Data?"
 objectives:
 - "The participant will learn that Data Descriptions are named differently in various fields."
 - "The participant will be able to create a machine-friendly Data Descriptions file."
@@ -28,7 +28,7 @@ keypoints:
 {: .checklist}
 
 
-### What are Data Descriptions?
+### 1. What are Data Descriptions?
 
 Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset. Depending on the use case and field of research, these data descriptions are also known as:  
 - Codebooks (e.g. in Statistics or Social Sciences)
@@ -51,7 +51,7 @@ For example:
 > **No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.**
 {: .callout}
 
-### How to reuse Data Descriptions?
+### 2. How to reuse Data Descriptions?
 
 Documentation of any kind always takes time. However, we shall always aim to reuse existing data descriptions generally accepted in the community. i.e. the variable `Weight` is a concept that has been widely used in research; therefore, we don't need to redefine it every time.  
 
@@ -79,7 +79,7 @@ Finally, using this Ontology, you can get a standard definition that community e
 > > - Sometimes, you might not find an Ontology or vocabulary that fits your variable.  
 {: .callout}
 
-### Are there standard ways for doing Data Descriptions?
+### 3. Are there standard ways for doing Data Descriptions?
 
 There are no standard ways of doing Data Descriptions. The minimum elements you need to describe your dataset are the **Variable Name** and the **Link to Description**. You can do that in a tabular format. However, following the FAIR principles of Interoperability and Reusability, we must ensure that the data is described using community standard FAIR vocabularies. Here are some Ontologies for general use that can cover a wide variety of data attributes
 
@@ -116,7 +116,6 @@ There are no standard ways of doing Data Descriptions. The minimum elements you 
 > {: .solution}
 {: .challenge}
 
-### How to actually create Data Descriptions?
 
 The **Data Descriptions** are usually  manually written in a tabular format. This document has the length and depth that the data owner sees fit. The general rule of thumb is to describe the dataset related to a publication. Any accessible format like `.csv`, `.xls`, or similar is acceptable.  
 
@@ -131,7 +130,7 @@ An example is **Automatic Codebooks from Metadata Encoded in Dataset Attributes*
 
 These initiatives are helping us standardise data descriptions and are "Human Friendly", which works perfectly. However, the FAIR principles FM-I1, FM-I2 and FM-R1.3 explicitly mention the need for [Linked Data](https://en.wikipedia.org/wiki/Linked_data) formats in order to gain the maximum level of **Interoperability**.
 
-### What is the relation between Data Descriptions and Linked Data?
+### 4. What is the relation between Data Descriptions and Linked Data?
 
 When we create comprehensive Data Descriptions reusing terminologies of existing Ontologies, we could make available our dataset in a [Linked Data](https://lod-cloud.net/#) format which makes it **Interoperable** with other datasets out there.
 
@@ -147,7 +146,7 @@ There are several tools that help you to convert your dataset from a conventiona
 |SDM-RDFizer | [LINK](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
 |SPARQL-Generate | [LINK](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
 |Virtuoso Universal Serve | [LINK](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
-|UM LDWizard | [LINK](https://humanities.wizard.semanticscience.org)| ✅|It's free, get the job done quick and clean, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account |
+|UM LDWizard | [LINK](https://humanities.wizard.semanticscience.org)| ✅|It's free, get the job done quick and clean, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
 
 
 > ## Exercise - Level Hard 🌶🌶🌶
@@ -165,3 +164,8 @@ There are several tools that help you to convert your dataset from a conventiona
 > > {: .output}
 > {: .solution}
 {: .challenge}
+
+> ## Discussion  
+> What happens when there are no ontologies or vocabularies for your research   
+>
+{: .discussion}
