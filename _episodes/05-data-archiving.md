@@ -29,17 +29,15 @@ keypoints:
 
 ### 1. What is Data Archiving?
 
-"Data Archiving" is the long-term storage of research data, including all research disciplines. The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
-
-> ##  "Data Archiving" is the long-term storage of research data
->
-{: .callout}
+"Data Archiving" is the practice of placing a digital source in a preservation phase. i.e. the long-term storage of research data. The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
 
 ### 2. What are Data Repositories?
 
 Datasets are archived in **Data repositories**. They are storage locations for digital objects. **Data repositories** can help make a researcher's data more discoverable by search engines (e.g. Google) and ultimately lead to potential reuse. Therefore, using storage can lead to increased citations of your work. Data repositories can also serve as backups during rare events where data are lost to the researcher and must be retrieved.
 
- > ## **Data repositories** can help make a researcher's data more discoverable by search engines (e.g. Google) 
+> ## Note
+> Data Archiving is the long-term storage of research data
+> Data repositories can help make a research data more discoverable by search engines (e.g. Googlebots) 
 >
 {: .callout}
 
@@ -124,22 +122,24 @@ In the example above, the prefix is used by the Australian National Data Service
 
 > ## Exercise - Level Hard 🌶🌶🌶
 >
-> 1. Watch the following tutorial to create a dataset in the DEMO DataverseNL
+> 1. Upload a dataset in the [DEMO DataverseNL](https://demo.dataverse.nl/) repository
 >
-> 2. Download this mock dataset to do it.
+> 2. Download the following mock dataset: [MOCK DATA](https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/MOCK_DATA_BOOTCAMP.xlsx)  
 > 
 > 3. What is the DOI of your dataset?
 > {: .source}
 >
 > > ## Solution
 > >
-> > Did you watch it already? 🤓
+> > There is no one single answer 🤓
 > > {: .output}
 > {: .solution}
 {: .challenge}
 
 
 > ## Discussion  
-> Given that uploading sensitive research data such as interviews. Dicuss in group on how to archive this type of projects in a data reporostory
->
+> Scenario:  
+You are a researcher of Migration studies, and you conducted personal interviews. So naturally, you want your research data to be visible in your community, given the impact on the topic. Still, obviously, you can't upload the transcripts, not even in a restricted form, since it's an ethnographic study.  
+> 
+> Discuss with your team how it would be best to handle data archiving in situations like this type of data. 
 {: .discussion}

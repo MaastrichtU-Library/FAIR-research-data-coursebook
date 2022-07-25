@@ -62,11 +62,11 @@ For example, in [BioPortal](https://bioportal.bioontology.org/), we can find exi
 
 You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-2.png" alt="bioportal2" style="width:570px;height:350px;">
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-2.png" alt="bioportal2" style="width:650px;height:350px;">
 
 Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-3.png" alt="bioportal3" style="width:540px;height:150px;">
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-3.png" alt="bioportal3">
 
 > ## Describe your data by reusing Ontology terms  
 >
@@ -119,7 +119,7 @@ There are no standard ways of doing Data Descriptions. The minimum elements you 
 
 The **Data Descriptions** are usually  manually written in a tabular format. This document has the length and depth that the data owner sees fit. The general rule of thumb is to describe the dataset related to a publication. Any accessible format like `.csv`, `.xls`, or similar is acceptable.  
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-4.png" alt="tabular" style="width:700px;height:150px;">
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-4.png" alt="tabular">
 
 In case it is a database, a data model must be included in machine-readable format (e.g. `.sql`) and a human-friendly diagram (e.g. ER model on `.pdf`)
 
@@ -151,21 +151,23 @@ There are several tools that help you to convert your dataset from a conventiona
 
 > ## Exercise - Level Hard 🌶🌶🌶
 >
-> 1. Watch the following tutorial to transform a dataset into a linked data format
+> 1. Transform a dataset from XLSX format to JSON-LD format using [UM LDWizard](https://humanities.wizard.semanticscience.org)  
 >
-> 2. Download this mock dataset to do it.
+> 2. Download the following mock dataset: [MOCK DATA](https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/MOCK_DATA_BOOTCAMP.xlsx)  
 > 
-> 3. How long did it take you to describe and transform the dataset?
+> 3. What ontology terms did you reuse to describe the data attributes?  
 > {: .source}
 >
 > > ## Solution
 > >
-> > Did you watch it already? 🤓
+> > There is no one single answer
 > > {: .output}
 > {: .solution}
 {: .challenge}
 
 > ## Discussion  
-> What happens when there are no ontologies or vocabularies for your research   
->
+> Scenario:  
+You are a marine biology researcher, your group have discovered new organisms, and it's time to create data descriptions. However, there are no available Ontologies to describe the data records, given that they are new scientific discoveries
+> 
+> Discuss with your team what the researcher should do given that apparently there are no available Ontologies to describe their data
 {: .discussion}

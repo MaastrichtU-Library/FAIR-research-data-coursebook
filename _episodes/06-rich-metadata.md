@@ -101,23 +101,10 @@ More and more services are using common schemas such as [DataCite's Metadata Sch
 Thanks to schemas, the process of adding metadata has been standardised to some extent but there is still room for error. For instance, DataCite [reports](https://blog.datacite.org/citation-analysis-scholix-rda/) that links between papers and data are still very low. Publishers and authors are missing this opportunity. 
 
 
-> ## Exercise - Level Easy 🌶
->
-> Export JSON-LD
->
->  Go to [ZENODO Covid 19 Community](https://zenodo.org/communities/covid-19/).
-> Can you tell what is the default "Data Access Protocol" for the Digital Objects displayed
-> {: .source}
->
-> > ## Solution
-> >
-> > Open Access. It is indicated in the green tag on top of the titles.
-> >
-> > {: .output}
-> {: .solution}
-{: .challenge}
 
 > ## Discussion  
-> The importance of a rich metadata on the project website
->
+> Scenario:  
+You are the scientific leader of project consortia. You just learned everything you need to make digital objects discoverable using rich metadata. You are about to create a project's website.     
+> 
+> Discuss with your team what is the relation between Rich Metadata files and websites  
 {: .discussion}

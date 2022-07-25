@@ -12,5 +12,6 @@ title: Setup
 >
 {: .prereq}
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTxguxIFc_VPIiy9S4J9FdE6ZvYXr2zGauRnkQqxI9oMt8mJxnL1cH4SvwqaB87xj0WnwPBTmSFi1RB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {% include links.md %}

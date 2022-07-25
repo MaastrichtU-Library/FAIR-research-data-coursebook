@@ -164,6 +164,8 @@ Yes, there are two general License frameworks that can work for data.
 
 
 > ## Discussion  
-> Kids data   
->
+> Scenario:  
+You are a sociology and statistics researcher, and now you are collaborating with a researcher from the hospital. Your collaborator researches Children's Mental Health. You will combine expertise and conduct a study on the Quality of Life in Children. In addition, you will lead a national survey in Dutch schools. You are thinking of collecting information about bullying, social media and family structure.
+> 
+> Discuss with your team what considerations need to be taken into account when drafting a Data Terms of Use for this study. Do you think a legal expert must write the terms of use, or can it be done by the researchers?
 {: .discussion}

@@ -14,6 +14,8 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 Welcome to the Circular Research Data Bootcamp coursebook!! 🤓
 
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/Bootcamp+Featured+Pic.png" alt="circular" weight=500 height=400>
+
 ## The Bootcamp 🎓
 
 The theme, **“Circular Research Data”**, is inspired by the socio-economic transition we live through, moving from a linear to a circular model acknowledging sustainability. One of the barriers to research reproducibility is precisely this “linear” mindset. A significant share of the research output produced in the last decades has followed the linear model: 1) Take the data, 2) Analyze and publish it, 3) Dispose of the data. We have the responsibility to change into a circular model.
@@ -36,8 +38,11 @@ Some relevant topics the Bootcamp coursebook aims to address are the following:
 - You will review the differences and similarities of “Data Descriptions” in different science fields to discuss what we can do (as a scientific community) to standardise these practices.  
 - You will learn what **“Rich Metadata”** technically means on the Semantic Web and its relation to sustainable research output for future generations of researchers.  
 
-> 💡 Following a bit more bold apporach we want to teach the implementation of FAIR principles differently. Less focus on the theory and more focus on examples. Guided by the 6 steps to Circular Researh Data
+> 💡 **Following a bit more bold apporach we want to teach the implementation of FAIR principles differently. Less focus on the theory and more focus on examples. Guided by the 6 steps to Circular Researh Data**
 {: .callout}
+
+
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/00-3.png" alt="circular" weight=400 height=400>
 
 ## Online Sessions 💻
 

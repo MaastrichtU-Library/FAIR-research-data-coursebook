@@ -140,3 +140,10 @@ We must remember that exposing data as a service would mean we need a server to 
 > What do you do on granting access credentials upon request? application? Form?   
 >
 {: .discussion}
+
+> ## Discussion  
+> Scenario:  
+You are a researcher of Sustainable Investment from the Economics department. After your research, you ended up possessing sensitive financial information of company figures that can not be disclosed. You will store the data in a secure envirnment but you would like to make it available for research purposes.  
+> 
+> Discuss with your team what type of access protocols shall be considered in this case. 
+{: .discussion}

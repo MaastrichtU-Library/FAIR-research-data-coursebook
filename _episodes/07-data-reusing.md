@@ -142,13 +142,9 @@ For example:
 > {: .solution}
 {: .challenge}
 
-FAIR test
-- https://fair-enough.semanticscience.org/
-- FAIR fuji
-
-●	Colavizza, G., Hrynaszkiewicz, I., Staden, I., Whitaker, K., & McGillivray, B. The citation advantage of linking publications to research data. PLOS ONE 15(4), e0230416 (2020). https://doi.org/10.1371/journal.pone.0230416
 
 > ## Discussion  
-> do FAIR tests https://fair-enough.semanticscience.org/ FAIR fuji
->
+> Select datasets from previous examples    
+> Perform FAIR tests in [FAIR enough](https://fair-enough.semanticscience.org/)  
+> What can you tel from the FAIR scores  
 {: .discussion}
