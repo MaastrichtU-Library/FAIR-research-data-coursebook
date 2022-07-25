@@ -140,7 +140,7 @@ There are several tools that help you to convert your dataset from a conventiona
 
 
 |Tool | Source | GUI | Note|
-| ---| ---|
+| ---| ---|s
 |Open Refine | [LINK](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory|
 |RMLmapper | [LINK](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical you need to know command line tools, prefered option of data engineers   |
 |SDM-RDFizer | [LINK](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
@@ -160,7 +160,7 @@ There are several tools that help you to convert your dataset from a conventiona
 >
 > > ## Solution
 > >
-> > There is no one single answer
+> > There is no one single answer 🤓
 > > {: .output}
 > {: .solution}
 {: .challenge}

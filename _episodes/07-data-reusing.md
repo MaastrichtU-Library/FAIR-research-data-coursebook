@@ -87,7 +87,7 @@ After testing the URL of the data source, you will get the response from the Goo
 > > {: .output}
 > {: .solution}
 {: .challenge}
-
+ss
 If you want to learn more about the Rich Results Test, you can find it here: [support.google.com/webmasters/](https://support.google.com/webmasters/answer/7445569). 
 
 The FAIR principles rely in the idea of structured data following [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) guidelines and formats. All search engines (e.g. Google) and data aggregators (e.g. Elsevier)work with the same standards making it easier to discover datasets. They can understand structured data in web pages about datasets using either [schema.org](https://schema.org/Dataset), Dataset markup or equivalent structures represented in W3C's [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat/) format. 
