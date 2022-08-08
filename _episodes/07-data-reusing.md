@@ -3,8 +3,8 @@ title: "Data Reusing"
 teaching: 10
 exercises: 15
 questions:
-- "How to cite data when reusing a data source?"
-- "How do we make sure data will be reused?"
+- "1 How to cite data when reusing a data source?"
+- "2 How do we make sure data will be reused?"
 objectives:
 - "The participant will understand the importance of data citation"
 - "The participant will learn tools to test discoverability for data to be reused"
@@ -23,9 +23,12 @@ keypoints:
 {: .checklist}
 
 
-## How to cite data when reusing a data source?
+## 1. How to cite data when reusing a data source?
 
-"Data Reusing" are activities for recycling existing research data sources. By default, we need to cite data sources.  
+> "Data Reusing" are activities for recycling existing research data sources.   
+{: .objectives}
+By default, we should make the research data documentation in citable and reusable formats    
+
 The minimum citation elements recommended by [DataCite](https://datacite.org/) are:
 - Creator
 - Publication Year
@@ -50,7 +53,7 @@ Nowadays, data repositories have a friendly interface on which one can export th
 > 
 {: .callout}
 
-## How do we make sure data can be reused?
+## 2. How do we make sure data can be reused?
 
 Remember that a dataset or a data source is a digital object. So Digital Objects "live" on the web. Imagine they are like fishes in the sea 🐠🐠. The way to get picked up by a "fisherman" 🎣 i.e. a search engine (e.g. Google), is by describing these Digital Objects with Rich Metadata [(Episode 5)](https://maastrichtu-library.github.io/circular-research-data-bootcamp/06-rich-metadata/index.html). Moreover we can check the quality of discoverability of the Digital Objects by conducting automated tests.
 
@@ -87,7 +90,7 @@ After testing the URL of the data source, you will get the response from the Goo
 > > {: .output}
 > {: .solution}
 {: .challenge}
-ss
+
 If you want to learn more about the Rich Results Test, you can find it here: [support.google.com/webmasters/](https://support.google.com/webmasters/answer/7445569). 
 
 The FAIR principles rely in the idea of structured data following [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) guidelines and formats. All search engines (e.g. Google) and data aggregators (e.g. Elsevier)work with the same standards making it easier to discover datasets. They can understand structured data in web pages about datasets using either [schema.org](https://schema.org/Dataset), Dataset markup or equivalent structures represented in W3C's [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat/) format. 
@@ -148,3 +151,98 @@ For example:
 > Perform FAIR tests in [FAIR enough](https://fair-enough.semanticscience.org/)  
 > What can you tel from the FAIR scores  
 {: .discussion}
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Circular Research Data Bootcamp",
+    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
+    "version": "v1.0",
+    "url": "https://doi.org/10.5281/zenodo.6974103",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2022-08-01"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2022-08-08"
+    },
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "keywords": [
+        "Research Data Management",
+        "Research Data Reuse",
+        "Bootcamp",
+        "Online Summer Camp",
+        "FAIR",
+        "FAIR Digital Objects"
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "concat @givenName @familyName",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht University Library",
+            "url": {
+                "@type": "URL",
+                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Vivas Romero",
+            "jobTitle": "Data Steward",
+            "email": "m.vivasromero@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Maastricht University Library",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Pedro Hernandez Serrano",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl"
+    },
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Circular Research Data Coursebook",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Vivas Romero"
+            }
+        ]
+    },
+    "learningResourceType": "Coursebook",
+    "provider": {
+        "@type": "Organization",
+        "name": "Maastricht University"
+    }
+}
+</script>

@@ -13,7 +13,7 @@ objectives:
 keypoints:
 - "The Data Terms of Use statement is the legal basis of the referred data source"
 - "A License is the bare minimum requirement for Data Terms of Use."
-- "If a standard License does not fit your project then you cn use Terms of Use layouts e.g. [Sample Data Usage Agreement](https://dataverse.org/best-practices/sample-dua)"
+- "If a standard License does not fit your project then you can use Terms of Use layouts e.g. [Sample Data Usage Agreement](https://dataverse.org/best-practices/sample-dua)"
 ---
 
 > ## FAIR principles used in Data Terms of Use:  
@@ -27,13 +27,13 @@ keypoints:
 
 ### 1 What are Data Terms of Use?
 
-Data Terms of Use is a textual statement that set the rules, terms, conditions, actions, legal considerations and licences that delineate data use.  
+> Data Terms of Use is a textual statement that set the rules, terms, conditions, actions, legal considerations and licences that delineate data use.  
+{: .objectives}
 
 An example is:
+<br>
+<img title="terms" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-1.png" alt="Terms of Use">
 **The World Bank - Terms of Use for Datasets**   → [LINK TO EXAMPLE](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)  
-
-
-<img title="terms" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-1.png">
 
 Looking at the example, we can identify general elements in the **Data Terms of Use** statement. For instance, a broad description of the data is referred to, but also under what type of license the user is allowed to reuse. 
 
@@ -42,7 +42,7 @@ An example is:
 **Terms of Use - Numbeo.com**   → [LINK TO EXAMPLE](https://www.numbeo.com/common/terms_of_use.jsp)    
 We can see that clause 3 of Licensing of content requests work attribution.
 
-<img title="terms2" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-4.png">
+<img title="terms2" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-4.png" alt="Terms of Use NUMBEO">
 
 ### 2 What a Data Terms of Use statement must contain?
 
@@ -100,12 +100,14 @@ Any text editor software would do the trick, such as [Notepad++](https://notepad
 
 The **Data Terms of Use** needs to be in the same root folder as the data source. When it comes to a database - like the World Bank example - it should be findable on the project's website. Moreover, if there is no official project website, you should include it in `.md` format in a Github repository like the following example: → [LINK TO EXAMPLE](https://github.com/MaastrichtU-IDS/clean-technologies-nlp/blob/master/data/README.md)  
 
-<img title="terms3" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-2.png">
+<img title="terms3" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-2.png" alt="Terms of Use folder">
 
 In [Episode 4 (Data Archiving)](https://maastrichtu-library.github.io/circular-research-data-bootcamp/06-rich-metadata/index.html), we will explore that some data repositories such as [DataverseNL](dataverse.nl/) allow you to create a Data Terms of Use statement directly on the platform when you create a data project.   
 By default, you get a waiver License [CC0 “No Rights Reserved”](https://creativecommons.org/share-your-work/public-domain/cc0/). Putting a database or dataset in the public domain under CC0 is a way to remove any legal doubt about whether researchers can use the data in their projects. Although CC0 doesn’t legally require data users to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. Moreover, you can change this waiver to a tailored Terms of Use you have created for your data.
 
-<img title="terms4" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-3.png">
+<img title="terms4" src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/02-3.png" alt="License is part of the Terms of Use">
+<br>
+
 
 > ## Exercise - Level Easy 🌶
 >
@@ -169,3 +171,98 @@ You are a sociology and statistics researcher, and now you are collaborating wit
 > 
 > Discuss with your team what considerations need to be taken into account when drafting a Data Terms of Use for this study. Do you think a legal expert must write the terms of use, or can it be done by the researchers?
 {: .discussion}
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Circular Research Data Bootcamp",
+    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
+    "version": "v1.0",
+    "url": "https://doi.org/10.5281/zenodo.6974103",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2022-08-01"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2022-08-08"
+    },
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "keywords": [
+        "Research Data Management",
+        "Research Data Reuse",
+        "Bootcamp",
+        "Online Summer Camp",
+        "FAIR",
+        "FAIR Digital Objects"
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "concat @givenName @familyName",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht University Library",
+            "url": {
+                "@type": "URL",
+                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Vivas Romero",
+            "jobTitle": "Data Steward",
+            "email": "m.vivasromero@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Maastricht University Library",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Pedro Hernandez Serrano",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl"
+    },
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Circular Research Data Coursebook",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Vivas Romero"
+            }
+        ]
+    },
+    "learningResourceType": "Coursebook",
+    "provider": {
+        "@type": "Organization",
+        "name": "Maastricht University"
+    }
+}
+</script>

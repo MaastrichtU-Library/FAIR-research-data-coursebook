@@ -3,22 +3,25 @@ title: "Introduction"
 teaching: 10
 exercises: 5
 questions:
-- "Does FAIR data means open data?"
-- "What are Digital Objects and Persistent Identifiers?"
+- "1 Does FAIR data means open data?"
+- "2 What are Digital Objects and Persistent Identifiers?"
+- "3 Different types of PIDs"
 objectives:
 - "The participant will understand that the FAIR principles are fundamental for Sustainable Science."
 - "The participant will learn what human and machine-friendly digital objects are."
 keypoints:
 - "FAIR means human and machine friendly data sources which aim for transparency in science and future reuse."
+- "DOI (Digital Object Identifier) is a type of PID (Persistent Identifier)"
 ---
 
 
-### Does FAIR data means open data?
+### 1. Does FAIR data means open data?
 
-No.  
-FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse  
+> No.    
+> FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse  
+{: .objectives}
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/00-2.png" alt="fair">
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/00-2.png" alt="FAIR and Open Science" style="max-width: 120%; height: auto;">
 
 > ## What does it mean to be machine-readable vs human-readable?  
 > **Human Readable** “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e. the representation of the data on disk does not represent the actual relationships present in the data.”  
@@ -26,12 +29,15 @@ FAIR means human and machine-friendly data sources which aim for transparency in
 > “Data in a data format that can be automatically read and processed by a computer, such as CSV, JSON, XML, etc. Machine-readable data must be structured data. Compare human-readable. Non-digital material (for example, printed or hand-written documents) is not machine-readable by its non-digital nature. But even digital material need not be machine-readable. For example, consider a PDF document containing tables of data. These are definitely digital but are not machine-readable because a computer would struggle to access the tabular information - even though they are very human readable. The equivalent tables in a format such as a spreadsheet would be machine-readable. As another example, scans (photographs) of text are not machine-readable (but are human readable!) but the equivalent text in a format such as a simple ASCII text file can machine readable and processable.”
 {: .prereq}
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/fair2.png" alt="fair">
+<br>
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/fair2.png" alt="Machine Friendly DO">
+<br>
 
+> ## Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
 > During this sourcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
 {: .prereq}
 
-### What are Digital Objects and Persistent Identifiers?
+### 2. What are Digital Objects and Persistent Identifiers?
 
 A **Digital Object** is a bit sequence located in a digital memory or storage that has, on its own, informational value. For example:  
 
@@ -40,8 +46,9 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 - A Rich Metadata file
 - A README file containing Terms of use & Access Protocols
 
-
-<img src="https://datascience.codata.org/articles/10.5334/dsj-2020-015/dsj-19-1127-g1.png/" alt="do" weight=500 height=400>
+<br>
+<img src="https://datascience.codata.org/articles/10.5334/dsj-2020-015/dsj-19-1127-g1.png/" alt="Digital Object Anatomy" weight=500 height=400>
+<br>
 
 > ## To learn more about FAIR Digital Objects
 > > **FAIR Digital Objects: Which Services Are Required?** [(Schwardman, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
@@ -49,15 +56,18 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 : 
 {: .callout}
 
+<br>
+
 A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or physical) resource:
 
 - Designed to provide access to information about a resource even if the resource it describes has moved location on the web
 - Requires technical, governance and community to provide the persistence
 - There are many different PIDs available for many different types of scholarly resources, e.g. articles, data, samples, authors, grants, projects, conference papers, and so much more
 
-<iframe width="900" height="400" src="https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<p align="center"><iframe width="900" height="600" src="https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Video: The FREYA project explains the significance of PID [LINK TO SOURCE](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)*
+*Video: The FREYA project explains the significance of PID: [LINK TO SOURCE](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)*
 
 ### Different types of PIDs
 
@@ -95,3 +105,98 @@ In [Episode 6 (Data Archiving)](https://maastrichtu-library.github.io/circular-r
 >
 > Does your discipline have a data journal? Or some other mechanism to share data? For example, the American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplment series](http://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data. 
 {: .discussion}
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Circular Research Data Bootcamp",
+    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
+    "version": "v1.0",
+    "url": "https://doi.org/10.5281/zenodo.6974103",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2022-08-01"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2022-08-08"
+    },
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "keywords": [
+        "Research Data Management",
+        "Research Data Reuse",
+        "Bootcamp",
+        "Online Summer Camp",
+        "FAIR",
+        "FAIR Digital Objects"
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "concat @givenName @familyName",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht University Library",
+            "url": {
+                "@type": "URL",
+                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Vivas Romero",
+            "jobTitle": "Data Steward",
+            "email": "m.vivasromero@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Maastricht University Library",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Pedro Hernandez Serrano",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl"
+    },
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Circular Research Data Coursebook",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Vivas Romero"
+            }
+        ]
+    },
+    "learningResourceType": "Coursebook",
+    "provider": {
+        "@type": "Organization",
+        "name": "Maastricht University"
+    }
+}
+</script>

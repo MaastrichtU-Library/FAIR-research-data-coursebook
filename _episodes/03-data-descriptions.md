@@ -12,7 +12,7 @@ objectives:
 - "The participant will be able to create a machine-friendly Data Descriptions file."
 keypoints:
 - "'Codebook' or 'data glossary' are some other ways to name **Data Descriptions**."
-- "**Ontologies** (in information science) are like public online vocabularies of curated terms and their definitions."   
+- "**Ontologies** (in information science) are like public online vocabularies of community curated terms and their definitions."   
 - "By resuing **Ontology terms** or community accepted vocabularies, we aim to create a culture of recycling terminology by default."
 ---
 
@@ -30,7 +30,10 @@ keypoints:
 
 ### 1. What are Data Descriptions?
 
-Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset. Depending on the use case and field of research, these data descriptions are also known as:  
+> Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset.  
+{: .objectives}
+
+Depending on the use case and field of research, these data descriptions are also known as:  
 - Codebooks (e.g. in Statistics or Social Sciences)
 - Data Dictionaries (e.g. in Computer and Data Science)
 - Labels or Data Tags (e.g. in Crowdsourcing or Humanities)
@@ -48,29 +51,30 @@ For example:
 
 > ## "Data Descriptions" is sometimes named differently depending on the field
 >
-> **No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.**
+> No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
 {: .callout}
 
 ### 2. How to reuse Data Descriptions?
 
 Documentation of any kind always takes time. However, we shall always aim to reuse existing data descriptions generally accepted in the community. i.e. the variable `Weight` is a concept that has been widely used in research; therefore, we don't need to redefine it every time.  
 
-
 For example, in [BioPortal](https://bioportal.bioontology.org/), we can find existing descriptions of `Weight`. These descriptions belong to an [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)), i.e. a community-accepted online dictionary for curated terms and definitions. Moreover, it provides a globally unique identifier to the description.  → [LINK TO EXAMPLE](https://bioportal.bioontology.org/)  
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-1.png" alt="bioportal" style="width:550px;height:350px;">
-
+<br>
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-1.png" alt="bioportal 1" style="max-width: 60%; height: auto;">
+<br>
 You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
-
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-2.png" alt="bioportal2" style="width:650px;height:350px;">
-
+<br>
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-2.png" alt="bioportal 2" style="max-width: 60%; height: auto;">
+<br>
 Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
-
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-3.png" alt="bioportal3">
+<br>
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/03-3.png" alt="bioportal 3" style="max-width: 60%; height: auto;">
+<br>
 
 > ## Describe your data by reusing Ontology terms  
 >
-> **By resuing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.** 
+> By resuing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.  
 > > **Advantages**  
 > > - We don't have to redefine the terms every time
 > > - We get a permanent link to the resource
@@ -81,7 +85,8 @@ Finally, using this Ontology, you can get a standard definition that community e
 
 ### 3. Are there standard ways for doing Data Descriptions?
 
-There are no standard ways of doing Data Descriptions. The minimum elements you need to describe your dataset are the **Variable Name** and the **Link to Description**. You can do that in a tabular format. However, following the FAIR principles of Interoperability and Reusability, we must ensure that the data is described using community standard FAIR vocabularies. Here are some Ontologies for general use that can cover a wide variety of data attributes
+There are no standard ways of doing Data Descriptions.  
+The minimum elements you need to describe your dataset are the **Variable Name** and the **Link to Description**. You can do that in a tabular format. However, following the FAIR principles of Interoperability and Reusability, we must ensure that the data is described using community standard FAIR vocabularies. Here are some Ontologies for general use that can cover a wide variety of data attributes
 
 |Ontology | Link | About what?|
 | ---| ---|
@@ -95,6 +100,8 @@ There are no standard ways of doing Data Descriptions. The minimum elements you 
 > **EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
 > **BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
 > **AgroPortal:**  → [agroportal.lirmm.fr/](http://agroportal.lirmm.fr/)  
+> **EcoPortal** → [ecoportal.lifewatchitaly.eu/](http://ecoportal.lifewatchitaly.eu/)
+> **Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)
 {: .prereq}
 
 ----
@@ -140,18 +147,18 @@ There are several tools that help you to convert your dataset from a conventiona
 
 
 |Tool | Source | GUI | Note|
-| ---| ---|s
+| ---| ---|---|---|
 |Open Refine | [LINK](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory|
 |RMLmapper | [LINK](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical you need to know command line tools, prefered option of data engineers   |
 |SDM-RDFizer | [LINK](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
 |SPARQL-Generate | [LINK](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
 |Virtuoso Universal Serve | [LINK](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
-|UM LDWizard | [LINK](https://humanities.wizard.semanticscience.org)| ✅|It's free, get the job done quick and clean, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
+|UM LDWizard | [LINK](https://humanities.wizard.semanticscience.org)| ✅|It's free, get the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
 
 
 > ## Exercise - Level Hard 🌶🌶🌶
 >
-> 1. Transform a dataset from XLSX format to JSON-LD format using [UM LDWizard](https://humanities.wizard.semanticscience.org)  
+> 1. Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://humanities.wizard.semanticscience.org)  
 >
 > 2. Download the following mock dataset: [MOCK DATA](https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/MOCK_DATA_BOOTCAMP.xlsx)  
 > 
@@ -171,3 +178,98 @@ You are a marine biology researcher, your group have discovered new organisms, a
 > 
 > Discuss with your team what the researcher should do given that apparently there are no available Ontologies to describe their data
 {: .discussion}
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Circular Research Data Bootcamp",
+    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
+    "version": "v1.0",
+    "url": "https://doi.org/10.5281/zenodo.6974103",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2022-08-01"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2022-08-08"
+    },
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "keywords": [
+        "Research Data Management",
+        "Research Data Reuse",
+        "Bootcamp",
+        "Online Summer Camp",
+        "FAIR",
+        "FAIR Digital Objects"
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "concat @givenName @familyName",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht University Library",
+            "url": {
+                "@type": "URL",
+                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Vivas Romero",
+            "jobTitle": "Data Steward",
+            "email": "m.vivasromero@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Maastricht University Library",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Pedro Hernandez Serrano",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl"
+    },
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Circular Research Data Coursebook",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Vivas Romero"
+            }
+        ]
+    },
+    "learningResourceType": "Coursebook",
+    "provider": {
+        "@type": "Organization",
+        "name": "Maastricht University"
+    }
+}
+</script>

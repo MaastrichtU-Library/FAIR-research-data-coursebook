@@ -29,7 +29,10 @@ keypoints:
 
 ### 1. What is Data Archiving?
 
-"Data Archiving" is the practice of placing a digital source in a preservation phase. i.e. the long-term storage of research data. The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
+> "Data Archiving" is the practice of placing a digital source in a preservation phase. i.e. the long-term storage of research data. 
+{: .objectives}
+
+The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
 
 ### 2. What are Data Repositories?
 
@@ -52,11 +55,15 @@ Examples of data repositories
 
 Just like FigShare, many data repositories are for general use. They provide a low entry barrier to making data **Findable** addressing FM-F1A (Identifier Uniqueness) and FM-F3 (Resource Identifier in Metadata). 
 
-> ## Default recommendations for data repositories
+<br> 
+
+> ## Recommendations for general purpose data repositories
 > [ZENODO](https://zenodo.org/) administrated by [CERN](https://home.cern/)  
 > [SURF Repository](https://repository.surfsara.nl/) administrated by [SURF](https://www.surf.nl/)  
 > [DataverseNL](https://dataverse.nl/)  administrated by [DANS](https://dans.knaw.nl/en/)
 {: .callout}
+
+<br> 
 
 Quick characteristics of general purpose repositories:  
 
@@ -68,17 +75,18 @@ Quick characteristics of general purpose repositories:
 - GitHub integration — Easily preserve your GitHub repository in Zenodo.
 - Usage statistics — All uploads display standards-compliant usage statistics.
 
-
-<img src="https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png" alt="hardvard">
+<br> 
+<img src="https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png" alt="Harvard Medical School, RDM - Data Repositories">
 *Image: Harvard Medical School, RDM - Data Repositories. Accessed Jul-2022 - *datamanagement.hms.harvard.edu/share/data-repositories*
-
+<br> 
 
 #### [Original Hardvard Dataverse](https://dataverse.harvard.edu/dataverse/harvard)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPQ0Tpgaxt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/MPQ0Tpgaxt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br> 
 
-> ## There are also public registries where you can find trusted repositories for Data Archiving 
+> ## Some public registries where you can find lists of trusted repositories for Data Archiving 
 > **Registry of Research Data Repositories (re3data)**  → [re3data.org//](https://www.re3data.org/)  
 > **PLOS ONE Recommended Repositories**  → [journals.plos.org/plosone/s/recommended-repositories](https://journals.plos.org/plosone/s/recommended-repositories)  
 > **NIH Recommended Repositories:**  → [sharing.nih.gov/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)  
@@ -86,13 +94,14 @@ Quick characteristics of general purpose repositories:
 > **OpenDOAR - Directory of Open Access Repositories**  →  [v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/)
 {: .prereq}
 
+<br> 
 
 > ## Exercise - Level Medium 🌶🌶
 >
 > 1. Go to **[dataverse.org](https://dataverse.org/)** and scroll down until you see a map. Respond to the following:  
 > 2. How many installations of Dataverse are?  
 > 3. How many Dataverse installations are in the Netherlands?  
-> 4. DataverseNL is the data repository hosted by DANS. It supports all higher education institutions in the Netherlands. How many datasets exist now in DataverseNL?   
+> 4. DataverseNL is the data repository hosted by DANS. It supports all higher education institutions in the Netherlands. How many datasets exist now in DataverseNL? (Aug 2022)   
 > {: .source}
 >
 > > ## Solution
@@ -115,10 +124,12 @@ A DOI has three main parts:
 - Prefix which is unique to the registrant or member
 - Suffix, a unique identifier assigned locally by the registrant to an object
 
-<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/04-2.jpeg" alt="hardvard" style="width:100x;height:80x;">
+<img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/04-2.jpeg" alt="Anatomy of a DOI" style="width:100x;height:80x;">
 
 In the example above, the prefix is used by the Australian National Data Service (ANDS) now called the Australia Research Data Commons (ARDC) and the suffix is a unique identifier for an object at Griffith University. DataCite provides DOI [display guidance](https://support.datacite.org/docs/datacite-doi-display-guidelines
 ) so that they are easy to recognize and use, for both humans and machines.
+
+<br> 
 
 > ## Exercise - Level Hard 🌶🌶🌶
 >
@@ -143,3 +154,98 @@ You are a researcher of Migration studies, and you conducted personal interviews
 > 
 > Discuss with your team how it would be best to handle data archiving in situations like this type of data. 
 {: .discussion}
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Circular Research Data Bootcamp",
+    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
+    "version": "v1.0",
+    "url": "https://doi.org/10.5281/zenodo.6974103",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2022-08-01"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2022-08-08"
+    },
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "keywords": [
+        "Research Data Management",
+        "Research Data Reuse",
+        "Bootcamp",
+        "Online Summer Camp",
+        "FAIR",
+        "FAIR Digital Objects"
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "concat @givenName @familyName",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht University Library",
+            "url": {
+                "@type": "URL",
+                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Vivas Romero",
+            "jobTitle": "Data Steward",
+            "email": "m.vivasromero@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Maastricht University Library",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Pedro Hernandez Serrano",
+        "givenName": "Pedro",
+        "familyName": "Hernandez Serrano",
+        "jobTitle": "Data Steward",
+        "email": "p.hernandezserrano@maastrichtuniversity.nl"
+    },
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Circular Research Data Coursebook",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Vivas Romero"
+            }
+        ]
+    },
+    "learningResourceType": "Coursebook",
+    "provider": {
+        "@type": "Organization",
+        "name": "Maastricht University"
+    }
+}
+</script>
