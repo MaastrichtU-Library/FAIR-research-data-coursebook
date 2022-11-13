@@ -155,6 +155,15 @@ You are a researcher of Migration studies, and you conducted personal interviews
 > Discuss with your team how it would be best to handle data archiving in situations like this type of data. 
 {: .discussion}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JS8K9J9GE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1JS8K9J9GE');
+</script>
 
 <script type="application/ld+json">
 {

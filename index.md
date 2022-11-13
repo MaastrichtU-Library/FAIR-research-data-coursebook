@@ -21,9 +21,7 @@ Welcome to the Circular Research Data Coursebook!! 🤓
 <img src="https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/images/Bootcamp+Featured+Pic.png" alt="Circular Research Data Logo" weight=500 height=400>
 
 
-## The Bootcamp 🎓
-
-Dates: 25 Jul - 29 Jul, 2022  
+## Approach 🎓
 
 The theme, **“Circular Research Data”**, is inspired by the socio-economic transition we live through, moving from a linear to a circular model acknowledging sustainability. One of the barriers to research reproducibility is precisely this “linear” mindset. A significant share of the research output produced in the last decades has followed the linear model: 1) Take the data, 2) Analyze and publish it, 3) Dispose of the data. We have the responsibility to change into a circular model.
 
@@ -61,14 +59,6 @@ Some relevant topics the Bootcamp coursebook aims to address are the following:
 {: .prereq}
 
 
-## Online Sessions 💻
-
-- Introduction - Monday, 25 July 2022 - 10.00-11.00 CET
-
-- Q&A - Wednesday, 27 July 2022 - 10.00-11.00 CET
-
-- Wrap up - Friday, 29 July 2022 - 10.00-11.00 CET
-
 ----
 
 > ## Cite this Coursebook
@@ -78,7 +68,15 @@ Some relevant topics the Bootcamp coursebook aims to address are the following:
 
 {% include links.md %}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JS8K9J9GE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-1JS8K9J9GE');
+</script>
 
 <script type="application/ld+json">
 {

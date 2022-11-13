@@ -148,6 +148,15 @@ Note: The data is not about personal data
 > Discuss with your team what type of access protocols shall be considered in this case. 
 {: .discussion}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JS8K9J9GE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1JS8K9J9GE');
+</script>
 
 <script type="application/ld+json">
 {

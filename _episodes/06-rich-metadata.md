@@ -110,6 +110,15 @@ You are the scientific leader of project consortia. You just learned everything 
 > Discuss with your team what is the relation between Rich Metadata files and websites  
 {: .discussion}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JS8K9J9GE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1JS8K9J9GE');
+</script>
 
 <script type="application/ld+json">
 {
