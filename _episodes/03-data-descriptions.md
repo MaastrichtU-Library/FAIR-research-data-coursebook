@@ -102,6 +102,7 @@ The minimum elements you need to describe your dataset are the **Variable Name**
 > **AgroPortal:**  → [agroportal.lirmm.fr/](http://agroportal.lirmm.fr/)  
 > **EcoPortal** → [ecoportal.lifewatchitaly.eu/](http://ecoportal.lifewatchitaly.eu/)
 > **Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)
+> **Bioschemas** → [bioschemas.org/](https://bioschemas.org/)
 {: .prereq}
 
 ----
