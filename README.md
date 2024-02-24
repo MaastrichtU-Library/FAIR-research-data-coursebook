@@ -1,5 +1,5 @@
-# Circular Research Data Bootcamp
- 
-Please use the `gh-pages` branch [ROOT](https://github.com/MaastrichtU-Library/circular-research-data-bootcamp/tree/gh-pages). 
+# FAIR Research Data Coursebook
 
-Visit the coursebok at [SITE](https://maastrichtu-library.github.io/circular-research-data-coursebook/). 
+To access the materials, please navigate to the `gh-pages` branch at the [ROOT](https://github.com/MaastrichtU-Library/FAIR-research-data-coursebook/tree/gh-pages).
+
+To view the coursebook online, click the following [LINK](https://maastrichtu-library.github.io/FAIR-research-data-coursebook/).
