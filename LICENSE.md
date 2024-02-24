@@ -51,7 +51,7 @@ Notices:
 
 
 > ## Cite this Coursebook
-> > [Hernández Serrano, Pedro](https://www.maastrichtuniversity.nl/nl/p.hernandezserrano); [Vivas Romero, Maria](https://www.maastrichtuniversity.nl/m.vivasromero); Library Carpentries: “Circular Research Data Bootcamp” Maastricht University Library, 25 - 29 Jul. 2022, [doi.org/10.5281/zenodo.6974103](https://doi.org/10.5281/zenodo.6974103)
+> > [Hernández Serrano, Pedro](https://www.maastrichtuniversity.nl/nl/p.hernandezserrano); [Vivas Romero, Maria](https://www.maastrichtuniversity.nl/m.vivasromero); Library Carpentries (2022, August 8): FAIR Research Data Coursebook. Zenodo. [doi.org/10.5281/zenodo.6974103](https://doi.org/10.5281/zenodo.6974103)
 {: .prereq}
 
 
@@ -71,18 +71,14 @@ registered trademarks of [Community Initiatives][CI].
 {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": "Circular Research Data Bootcamp",
-    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
-    "version": "v1.0",
+    "name": "FAIR Research Data Coursebook",
+    "description": "Welcome to the FAIR Research Data Coursebook. This resource is an Open Educational Resource designed in accordance with FAIR and Open Science guidelines. Traditional training materials on FAIR principles often come across as dense and heavily theoretical. Our approach, inspired by Library Carpentries, aims for a different learning experience. This coursebook offers accessible, entry-level content and practical examples to enable researchers to easily grasp and apply FAIR principles in their work.",
+    "version": "v1.3",
     "url": "https://doi.org/10.5281/zenodo.6974103",
     "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
     "dateCreated": {
         "@type": "Date",
         "@value": "2022-08-01"
-    },
-    "datePublished": {
-        "@type": "Date",
-        "@value": "2022-08-08"
     },
     "inLanguage": {
         "@type": "Language",
@@ -92,10 +88,9 @@ registered trademarks of [Community Initiatives][CI].
     "keywords": [
         "Research Data Management",
         "Research Data Reuse",
-        "Bootcamp",
-        "Online Summer Camp",
         "FAIR",
-        "FAIR Digital Objects"
+        "FAIR Digital Objects",
+        "FAIR Data"
     ],
     "creator": {
         "@type": "Person",
@@ -107,10 +102,10 @@ registered trademarks of [Community Initiatives][CI].
         "email": "p.hernandezserrano@maastrichtuniversity.nl",
         "affiliation": {
             "@type": "Organization",
-            "name": "Maastricht University Library",
+            "name": "Maastricht University",
             "url": {
                 "@type": "URL",
-                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                "@value": "https://maastrichtuniversity.nl"
             }
         }
     },
@@ -123,10 +118,10 @@ registered trademarks of [Community Initiatives][CI].
             "email": "m.vivasromero@maastrichtuniversity.nl",
             "affiliation": {
                 "@type": "Organization",
-                "name": "Maastricht University Library",
+                "name": "Maastricht University",
                 "url": {
                     "@type": "URL",
-                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
+                    "@value": "https://maastrichtuniversity.nl"
                 }
             }
         }
@@ -141,7 +136,7 @@ registered trademarks of [Community Initiatives][CI].
     },
     "citation": {
         "@type": "CreativeWork",
-        "name": "Circular Research Data Coursebook",
+        "name": "FAIR Research Data Coursebook",
         "creator": [
             {
                 "@type": "Person",
@@ -154,9 +149,9 @@ registered trademarks of [Community Initiatives][CI].
         ]
     },
     "learningResourceType": "Coursebook",
-    "provider": {
-        "@type": "Organization",
-        "name": "Maastricht University"
+    "dateModified": {
+        "@type": "Date",
+        "@value": "2024-02-24"
     }
 }
 </script>
