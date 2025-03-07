@@ -110,7 +110,7 @@ The **Data Terms of Use** needs to be in the same root folder as the data source
 
 <img title="terms3" src="../fig/FAIRcoursebook-image1_3.png" alt="Terms of Use folder">
 
-In [Episode 4 (Data Archiving)](https://maastrichtu-library.github.io/fair-research-data-bootcamp/06-rich-metadata/index.html), we will explore that some data repositories such as [DataverseNL](dataverse.nl/) allow you to create a Data Terms of Use statement directly on the platform when you create a data project.   
+In [Episode 4 (Data Archiving)](https://carpentries-incubator.github.io/FAIR-research-data-coursebook/05-data-archiving/index.html), we will explore that some data repositories such as [DataverseNL](dataverse.nl/) allow you to create a Data Terms of Use statement directly on the platform when you create a data project.   
 By default, you get a waiver License [CC0 “No Rights Reserved”](https://creativecommons.org/share-your-work/public-domain/cc0/). Putting a database or dataset in the public domain under CC0 is a way to remove any legal doubt about whether researchers can use the data in their projects. Although CC0 doesn’t legally require data users to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. Moreover, you can change this waiver to a tailored Terms of Use you have created for your data.
 
 <img title="terms4" src="../fig/FAIRcoursebook-image1_4.png" alt="License is part of the Terms of Use">

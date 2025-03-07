@@ -132,7 +132,7 @@ In the example above, the prefix is used by the Australian National Data Service
 >
 > 1. Upload a dataset in the [DEMO DataverseNL](https://demo.dataverse.nl/) repository.
 >
-> 2. Download the following mock dataset: [MOCK DATA](https://maastrichtuniversity-ids-open.s3.eu-central-1.amazonaws.com/MOCK_DATA_BOOTCAMP.xlsx).  
+> 2. Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx).  
 > 
 > 3. What is the DOI of your dataset?
 > {: .source}

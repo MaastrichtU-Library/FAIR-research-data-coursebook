@@ -75,7 +75,7 @@ Within the Open Science recommendations, it is endorsed to standardize open acce
 
 <img src="https://www.openaccess.nl/themes/custom/droopler_theme/build/assets/images/logo.svg" href="https://www.openaccess.nl/en/wat-is-open-access/open-data" alt="access">
 
-Depositing datasets in public data repositories can grant them open access protocol automatically. In addition, data repositories typically work as a data archiving instrument, which we cover in [Episode 6 (Data Archiving)](https://maastrichtu-library.github.io/fair-research-data-coursebook/05-data-archiving/index.html).  
+Depositing datasets in public data repositories can grant them open access protocol automatically. In addition, data repositories typically work as a data archiving instrument, which we cover in [Episode 6 (Data Archiving)](https://carpentries-incubator.github.io/FAIR-research-data-coursebook/05-data-archiving/index.html).  
 
 Moreover, Open Access data sources can be made available using FAIR protocols such as SPARQL API endpoints.  
 

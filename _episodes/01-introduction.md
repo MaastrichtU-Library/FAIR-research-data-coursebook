@@ -70,7 +70,7 @@ A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or p
 
 PIDs have community support, organizational commitment, and technical infrastructure to ensure the persistence of identifiers. They are often created to respond to a community's needs. For instance, the International Standard Book Number or ISBN was created to assign unique numbers to books, is used by book publishers, and is managed by the International ISBN Agency. Another type of PID, the Open Researcher and Contributor ID or ORCID (iD), was created to help with author disambiguation by providing unique identifiers for authors. The [ODIN Project identifies additional PIDs](https://project-thor.readme.io/docs/project-glossary) along with [Wikipedia's page on PIDs](https://en.wikipedia.org/wiki/Persistent_identifier).
 
-In [Episode 6 (Data Archiving)](https://maastrichtu-library.github.io/fair-research-data-bootcamp/05-data-archiving/index.html), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
+In [Episode 6 (Data Archiving)](https://carpentries-incubator.github.io/FAIR-research-data-coursebook/05-data-archiving/index.html), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
 
 > ## Exercise - Level Easy 🌶
 > 1. arXiv is a preprint repository for physics, math, computer science, and related disciplines. 

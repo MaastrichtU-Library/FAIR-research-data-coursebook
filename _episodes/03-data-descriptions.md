@@ -150,13 +150,13 @@ There are several tools that help you to convert your dataset from a conventiona
 |SDM-RDFizer | [LINK](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
 |SPARQL-Generate | [LINK](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
 |Virtuoso Universal Serve | [LINK](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
-|UM LDWizard | [LINK](https://humanities.wizard.semanticscience.org)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
+|UM LDWizard | [LINK](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
 
 > ## Exercise - Level Hard 🌶🌶🌶
 >
-> 1. Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://humanities.wizard.semanticscience.org)  
+> 1. Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
 >
-> 2. Download the following mock dataset: [MOCK DATA](../fig/MOCK_DATA_BOOTCAMP.xlsx)  
+> 2. Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
 > 
 > 3. What ontology terms did you reuse to describe the data attributes?  
 > {: .source}
