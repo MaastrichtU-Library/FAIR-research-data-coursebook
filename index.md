@@ -15,7 +15,7 @@ h1 {text-align: center;}
 **Keywords**: `Research Data Management`, `Research Data Reuse`, `FAIR`, `FAIR Digital Objects`.
 
 
-<img src="fig/FAIRcoursebook-image0.png" alt="FAIR Research Data Logo" weight=550>
+<img src="/fig/FAIRcoursebook-image0.png" alt="FAIR Research Data Logo" width=800>
 
 > 📢 **This coursebook was last updated in January 2025.**
 
@@ -38,12 +38,12 @@ Some relevant topics the coursebook aims to address are the following:
 <div style="font-size: 24px;">
     <h2>Six steps to FAIR</h2>
     <ol style="display: inline-block; text-align: left;">
-        <li>📜 Set up your own terms ➡️ <a href="{{ relative_root_path }}{% link _episodes/02-terms-of-use.md %}">Data Terms of Use</a></li>
-        <li>🌍 Speak the same language ➡️ <a href="{{ relative_root_path }}{% link _episodes/03-data-descriptions.md %}">Data Descriptions</a></li>
-        <li>🔒 Securely share ➡️ <a href="{{ relative_root_path }}{% link _episodes/04-access-protocols.md %}">Data Access Protocols</a></li>
-        <li>📦 Publish and preserve ➡️ <a href="{{ relative_root_path }}{% link _episodes/05-data-archiving.md %}">Data Archiving</a></li>
-        <li>🤖 Make machines work for you ➡️ <a href="{{ relative_root_path }}{% link _episodes/06-rich-metadata.md %}">Rich Metadata</a></li>
-        <li>♻️ Responsibly reuse ➡️ <a href="{{ relative_root_path }}{% link _episodes/07-data-reusing.md %}">Data Reusing</a></li>
+        <li>📜 Set up your own terms ➡️ <a href="{{ site.baseurl }}/02-terms-of-use/index.html">Data Terms of Use</a></li>
+        <li>🌍 Speak the same language ➡️ <a href="{{ site.baseurl }}/03-data-descriptions/index.html">Data Descriptions</a></li>
+        <li>🔒 Securely share ➡️ <a href="{{ site.baseurl }}/04-access-protocols/index.html">Data Access Protocols</a></li>
+        <li>📦 Publish and preserve ➡️ <a href="{{ site.baseurl }}/05-data-archiving/index.html">Data Archiving</a></li>
+        <li>🤖 Make machines work for you ➡️ <a href="{{ site.baseurl }}/06-rich-metadata/index.html">Rich Metadata</a></li>
+        <li>♻️ Responsibly reuse ➡️ <a href="{{ site.baseurl }}/07-data-reusing/index.html">Data Reusing</a></li>
     </ol>
 </div>
 
