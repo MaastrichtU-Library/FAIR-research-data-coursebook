@@ -57,4 +57,7 @@ learners:
 instructors:
 - instructor-notes.md
 
+profiles:
+- researcher-profile.md
+
 # Customisation ---------------------------------------------
