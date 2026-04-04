@@ -128,26 +128,19 @@ Search engines and data aggregators rely on shared standards such as:
 - Semantic Web concepts more broadly:
   <https://en.wikipedia.org/wiki/Semantic_Web>
 
-An example of dataset-oriented JSON-LD in HTML:
+An example of dataset-oriented JSON-LD:
 
-```html
-<html>
-  <head>
-    <title>This Dataset is a FAIR example</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Dataset",
-      "name": "Dummy Data",
-      "description": "This is an example for the coursebook",
-      "url": "https://example.com",
-      "identifier": ["https://doi.org/XXXXXX"],
-      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "isAccessibleForFree": true
-    }
-    </script>
-  </head>
-</html>
+```json
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Dummy Data",
+  "description": "This is an example for the coursebook",
+  "url": "https://example.com",
+  "identifier": ["https://doi.org/XXXXXX"],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true
+}
 ```
 
 ::::::::::::::::::::::::::::::::::::: challenge
