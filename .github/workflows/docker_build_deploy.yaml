@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'main'
+      - 'workbench'
       - 'l10n_main'
     paths-ignore:
       - '.github/workflows/**.yaml'
