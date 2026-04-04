@@ -1,0 +1,62 @@
+#------------------------------------------------------------
+# Values for this lesson.
+#------------------------------------------------------------
+
+# Which carpentry is this (swc, dc, lc, or cp)?
+# swc: Software Carpentry
+# dc: Data Carpentry
+# lc: Library Carpentry
+# cp: Carpentries (to use for instructor training for instance)
+# incubator: The Carpentries Incubator
+carpentry: 'lc'
+
+# Alt-text description of the lesson.
+carpentry_description: 'A practical lesson on implementing FAIR research data principles'
+
+# Overall title for pages.
+title: 'FAIR Research Data Coursebook'
+
+# Date the lesson was created (YYYY-MM-DD)
+created: 2022-08-08
+
+# Comma-separated list of keywords for the lesson
+keywords: 'FAIR, research data management, research data reuse, FAIR Digital Objects, The Carpentries'
+
+# Life cycle stage of the lesson
+# possible values: pre-alpha, alpha, beta, stable
+life_cycle: 'stable'
+
+# License of the lesson
+license: 'CC-BY 4.0'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/pedrohserrano/FAIR-research-data-coursebook.git'
+
+# Default branch of your lesson
+branch: 'workbench'
+
+# Who to contact if there are any issues
+contact: 'p.hernandezserrano@maastrichtuniversity.nl'
+
+# Navigation ------------------------------------------------
+
+episodes:
+- introduction.md
+- terms-of-use.md
+- data-descriptions.md
+- access-protocols.md
+- data-archiving.md
+- rich-metadata.md
+- data-reusing.md
+
+learners:
+- setup.md
+- reference.md
+- about.md
+
+instructors:
+- instructor-notes.md
+
+profiles:
+
+# Customisation ---------------------------------------------

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: FAIR Research Data Coursebook
+message: >-
+  Please cite this lesson using the metadata in this file when reusing
+  or adapting the material.
+type: dataset
+authors:
+  - given-names: Pedro
+    family-names: Hernandez Serrano
+    email: p.hernandezserrano@maastrichtuniversity.nl
+  - given-names: Maria
+    family-names: Vivas Romero
+    email: m.vivasromero@maastrichtuniversity.nl
+abstract: >-
+  A Carpentries-style lesson introducing practical implementation of FAIR
+  research data principles through examples on terms of use, data
+  descriptions, access protocols, archiving, rich metadata, and reuse.
+license: CC-BY-4.0
+doi: 10.5281/zenodo.6974103
