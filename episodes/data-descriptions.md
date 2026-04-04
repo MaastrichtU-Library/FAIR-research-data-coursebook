@@ -123,8 +123,8 @@ Public registries that help locate vocabularies include:
 - Linked Open Vocabularies: <https://lov.linkeddata.es/dataset/lov/>
 - EU Vocabularies: <https://op.europa.eu/en/web/eu-vocabularies>
 - BioPortal: <https://bioportal.bioontology.org/>
-- AgroPortal: <http://agroportal.lirmm.fr/>
-- EcoPortal: <http://ecoportal.lifewatchitaly.eu/>
+- AgroPortal: <https://agroportal.lirmm.fr/>
+- EcoPortal: <https://ecoportal.lifewatchitaly.eu/>
 - Ontology Lookup Service: <https://www.ebi.ac.uk/ols/index>
 - Bioschemas: <https://bioschemas.org/>
 
