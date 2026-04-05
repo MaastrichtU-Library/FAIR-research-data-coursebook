@@ -2,20 +2,14 @@
 title: 'Instructor Notes'
 ---
 
-This branch contains the Workbench migration in progress.
+Use these notes to support instruction and lesson maintenance.
 
-## Current State
+## Teaching Focus
 
-- The repository now uses the Workbench Markdown template structure.
-- Legacy Jekyll source files were moved to `legacy/styles-src/`.
-- `episodes/introduction.md` is the first fully migrated episode and should be
-  used as the pattern for the remaining conversions.
+- Keep discussion grounded in practical FAIR data decisions.
+- Encourage participants to connect each activity to their own data workflows.
 
-## Next Migration Targets
+## Maintenance
 
-- `episodes/terms-of-use.md`
-- `episodes/data-descriptions.md`
-- `episodes/access-protocols.md`
-- `episodes/data-archiving.md`
-- `episodes/rich-metadata.md`
-- `episodes/data-reusing.md`
+- Prefer small, reviewable updates to lesson content.
+- Record substantial teaching changes in pull requests or issues.
