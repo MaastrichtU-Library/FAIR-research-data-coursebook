@@ -61,8 +61,6 @@ informational value on its own. Examples include:
 - a rich metadata record
 - a README file describing access and reuse conditions
 
-![Digital object anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt='Diagram showing the anatomy of a digital object'}
-
 A persistent identifier, or PID, is a durable reference to a digital or
 physical resource. PIDs are backed by technical infrastructure and governance
 arrangements that help them continue resolving even when the resource itself
@@ -79,15 +77,15 @@ Common uses of PIDs include identifying:
 DOI is one well-known PID type and is commonly used for datasets and
 publications. ORCID is another example, focused on researcher identity.
 
-For a short explainer, see the FREYA project video on the importance of PIDs:
-<https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm>
+For a short explainer, see the
+[FREYA project video on the importance of PIDs](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm).
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
 ## Exercise
 
-Visit the recent machine learning submissions on arXiv:
-<https://arxiv.org/list/cs.LG/recent>
+Visit the
+[recent machine learning submissions on arXiv](https://arxiv.org/list/cs.LG/recent).
 
 Pick a paper, open its PDF, and search for `http` or `doi`.
 

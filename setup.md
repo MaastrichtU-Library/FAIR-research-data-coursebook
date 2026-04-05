@@ -18,9 +18,4 @@ accounts and familiar tools before starting.
 
 The original introductory slides are still available here:
 
-- <https://docs.google.com/presentation/d/e/2PACX-1vTxguxIFc_VPIiy9S4J9FdE6ZvYXr2zGauRnkQqxI9oMt8mJxnL1cH4SvwqaB87xj0WnwPBTmSFi1RB/pub?start=false&loop=false&delayms=5000>
-
-## Citation
-
-Hernandez Serrano, P. V., & Vivas Romero, M. (2022, August 8). *FAIR Research
-Data Coursebook*. Zenodo. <https://doi.org/10.5281/zenodo.6974103>
+- [Introductory slides](https://docs.google.com/presentation/d/e/2PACX-1vTxguxIFc_VPIiy9S4J9FdE6ZvYXr2zGauRnkQqxI9oMt8mJxnL1cH4SvwqaB87xj0WnwPBTmSFi1RB/pub?start=false&loop=false&delayms=5000)
