@@ -1,5 +1,5 @@
 ---
-title: "Researcher Profile"
+title: Researcher Profile
 ---
 
 Minimal profile placeholder.
