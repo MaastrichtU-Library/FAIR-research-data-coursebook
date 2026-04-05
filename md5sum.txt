@@ -1,6 +1,6 @@
 "file" "checksum" "built" "date"
 "config.yaml" "e1cc2c9f707b7fe8b55c43630b0eed0b" "site/built/config.yaml" "2026-04-05"
-"index.md" "f6d07d98bc355f8ef2a4176f8886cbb4" "site/built/index.md" "2026-04-05"
+"index.md" "b4d4d8bfedf8efa4e1361920da8573b2" "site/built/index.md" "2026-04-05"
 "episodes/introduction.md" "3be5894d5fb771f10f40617c40582631" "site/built/introduction.md" "2026-04-05"
 "instructors/instructor-notes.md" "a3a4ce216f4220abd4672d1d62c1adf6" "site/built/instructor-notes.md" "2026-04-05"
 "learners/setup.md" "8ad9d3e387ee8b7c5ed316c45029e46f" "site/built/setup.md" "2026-04-05"
