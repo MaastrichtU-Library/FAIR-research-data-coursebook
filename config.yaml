@@ -11,7 +11,7 @@
 carpentry: 'lc'
 
 # Alt-text description of the lesson.
-carpentry_description: 'A practical lesson on implementing FAIR research data principles'
+carpentry_description: 'FAIR research data lesson'
 
 # Overall title for pages.
 title: 'FAIR Research Data Coursebook'
@@ -20,7 +20,7 @@ title: 'FAIR Research Data Coursebook'
 created: 2022-08-08
 
 # Comma-separated list of keywords for the lesson
-keywords: 'FAIR, research data management, research data reuse, FAIR Digital Objects, The Carpentries'
+keywords: 'FAIR'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -30,7 +30,7 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/pedrohserrano/FAIR-research-data-coursebook.git'
+source: 'https://github.com/pedrohserrano/FAIR-research-data-coursebook'
 
 # Default branch of your lesson
 branch: 'workbench'

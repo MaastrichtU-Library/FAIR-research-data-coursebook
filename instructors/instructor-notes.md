@@ -1,5 +1,5 @@
 ---
-title: 'Instructor Notes'
+title: Instructor Notes
 ---
 
 Minimal instructor notes placeholder.
