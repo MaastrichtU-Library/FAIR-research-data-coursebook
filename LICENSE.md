@@ -7,8 +7,8 @@ title: "Licenses"
 This lesson content is made available under the Creative Commons Attribution 4.0
 International license.
 
-- Human-readable summary: <https://creativecommons.org/licenses/by/4.0/>
-- Full legal text: <https://creativecommons.org/licenses/by/4.0/legalcode>
+- [License summary](https://creativecommons.org/licenses/by/4.0/)
+- [Full legal text](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 You are free to:
 
@@ -28,9 +28,4 @@ infrastructure and maintained as the FAIR Research Data Coursebook.
 "The Carpentries", "Software Carpentry", and "Data Carpentry" are registered
 trademarks of Community Initiatives.
 
-- Community Initiatives: <https://communityin.org/>
-
-## Citation
-
-Hernandez Serrano, P. V., & Vivas Romero, M. (2022, August 8). *FAIR Research
-Data Coursebook*. Zenodo. <https://doi.org/10.5281/zenodo.6974103>
+- [Community Initiatives](https://communityin.org/)
