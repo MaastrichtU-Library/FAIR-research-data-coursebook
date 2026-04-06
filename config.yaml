@@ -42,17 +42,6 @@ contact: 'p.hernandezserrano@maastrichtuniversity.nl'
 
 episodes:
 - introduction.md
-- terms-of-use.md
-- data-descriptions.md
-- access-protocols.md
-- data-archiving.md
-- rich-metadata.md
-- data-reusing.md
-
-learners:
-- setup.md
-- reference.md
-- about.md
 
 profiles:
 - researcher-profile.md
