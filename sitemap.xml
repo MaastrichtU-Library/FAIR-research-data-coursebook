@@ -4,6 +4,9 @@
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/404.html</loc>
   </url>
   <url>
+    <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/about.html</loc>
+  </url>
+  <url>
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/citation.html</loc>
   </url>
   <url>
@@ -11,6 +14,9 @@
   </url>
   <url>
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/instructor/404.html</loc>
+  </url>
+  <url>
+    <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/instructor/about.html</loc>
   </url>
   <url>
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/instructor/citation.html</loc>
@@ -25,9 +31,15 @@
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/instructor/profiles.html</loc>
   </url>
   <url>
+    <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/instructor/reference.html</loc>
+  </url>
+  <url>
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/introduction.html</loc>
   </url>
   <url>
     <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://pedrohserrano.github.io/FAIR-research-data-coursebook/reference.html</loc>
   </url>
 </urlset>
