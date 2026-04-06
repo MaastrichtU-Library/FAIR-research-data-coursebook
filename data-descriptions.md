@@ -57,11 +57,31 @@ A useful data description usually includes:
 - units or scale where relevant
 - links to reused community terms when available
 
+## From local notes to interoperable descriptions
+
+Many projects begin with informal notes in spreadsheets, lab books, or README
+files. Those notes are useful, but they become more valuable when they are
+written consistently and can be understood outside the original team.
+
+A good next step is to review descriptions field by field and make sure that:
+
+- abbreviations are explained
+- measurement units are explicit
+- coded values are defined
+- reused concepts are named consistently
+
+## Why this matters for FAIR data
+
+Without good descriptions, a dataset may be visible but still difficult to
+interpret correctly. Clear definitions make later sharing, integration, and
+reuse more realistic.
+
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - This episode is being restored conservatively to preserve build stability.
 - Data descriptions help people understand what dataset variables mean.
 - Reusing shared terms makes data easier to compare and combine.
 - A practical description should define fields clearly and note reused terms.
+- Better field descriptions improve later sharing and reuse.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
