@@ -7,122 +7,210 @@ exercises: 15
 :::::::::::::::::::::::::::::::::::::: questions
 
 - What are data descriptions?
+- How can data descriptions be reused?
+- Are there standard ways to create them?
+- What is the relationship between data descriptions and linked data?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Confirm that this episode path builds with minimal valid content.
-- Recognize that data descriptions help people interpret dataset variables.
+- Recognize that different communities use different names for data
+  descriptions.
+- Learn how to build machine-friendly data description files.
+- Understand why reusing ontology terms improves interoperability.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Data descriptions explain what dataset fields mean so that others can interpret
-and reuse the data correctly.
+::::::::::::::::::::::::::::::::::::: callout
 
-Depending on the community, similar documents may also be called:
+### FAIR principles used in data descriptions
+
+Interoperable:
+
+- FM-I1 Use a Knowledge Representation Language:
+  <https://doi.org/10.25504/FAIRsharing.jLpL6i>
+- FM-I2 Use FAIR Vocabularies:
+  <https://doi.org/10.25504/FAIRsharing.0A9kNV>
+
+Reusable:
+
+- FM-R1.3 Meets Community Standards:
+  <https://doi.org/10.25504/FAIRsharing.cuyPH9>
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## What are data descriptions?
+
+Data descriptions document the meaning of each data attribute or variable in a
+dataset.
+
+Depending on the discipline, similar documents may be called:
 
 - codebooks
 - data dictionaries
-- variable descriptions
+- labels or data tags
+- data glossaries
 
-Clear descriptions reduce ambiguity and make later reuse easier.
+Example:
 
-## Why shared language matters
+| Variable name | Description | Scale |
+| --- | --- | --- |
+| Weight | Weight of a human | kilograms |
+| Height | Height of a human | centimetres |
+| Age | Age of a human | years |
+| Blood glucose level | Blood glucose level of a human | mg/dl |
 
-Different teams may use different names for the same concept. A clear data
-description helps readers understand whether two fields really refer to the
-same thing.
+::::::::::::::::::::::::::::::::::::: callout
 
-Where possible, reuse established community terms rather than inventing a new
-definition for every project.
+### Different fields use different names
 
-## Reusing existing terms
+No matter what the document is called, the goal is the same: describe what the
+ dataset variables mean so others can interpret and reuse the data correctly.
 
-When a concept is already described by a community vocabulary or ontology, it
-is often better to reuse that definition than to write a completely local one.
+::::::::::::::::::::::::::::::::::::::::::::::::
 
-This helps:
+## How can data descriptions be reused?
 
-- reduce ambiguity
-- improve interoperability
-- make comparisons across datasets easier
+Writing documentation takes time, so when possible you should reuse accepted
+community definitions instead of inventing a new description every time.
 
-## Practical minimum
+BioPortal is a good example of a registry where community-maintained ontology
+terms can be searched and reused:
 
-A useful data description usually includes:
+- BioPortal: <https://bioportal.bioontology.org/>
 
-- the variable or field name
-- a short definition
-- units or scale where relevant
-- links to reused community terms when available
+![Searching for a term in BioPortal](fig/FAIRcoursebook-image2_1.png){alt='BioPortal search results interface'}
+![Comparing ontology definitions in BioPortal](fig/FAIRcoursebook-image2_2.png){alt='Different ontology matches for the same concept'}
+![Selected ontology term with identifier](fig/FAIRcoursebook-image2_3.png){alt='Ontology entry with persistent identifier'}
 
-## From local notes to interoperable descriptions
+::::::::::::::::::::::::::::::::::::: callout
 
-Many projects begin with informal notes in spreadsheets, lab books, or README
-files. Those notes are useful, but they become more valuable when they are
-written consistently and can be understood outside the original team.
+### Reuse ontology terms when possible
 
-A good next step is to review descriptions field by field and make sure that:
+Advantages:
 
-- abbreviations are explained
-- measurement units are explicit
-- coded values are defined
-- reused concepts are named consistently
+- you do not need to redefine common concepts repeatedly
+- you gain a persistent identifier for the concept
+- other systems can align variables across datasets more easily
 
-## Why this matters for FAIR data
+Disadvantages:
 
-Without good descriptions, a dataset may be visible but still difficult to
-interpret correctly. Clear definitions make later sharing, integration, and
-reuse more realistic.
+- sometimes no existing ontology fits the exact concept you need
 
-## Examples of useful descriptive detail
+::::::::::::::::::::::::::::::::::::::::::::::::
 
-The more concrete a description is, the easier it becomes to interpret the
-data correctly.
+## Are there standard ways to create data descriptions?
 
-For example, a helpful description may clarify:
+There is no single universal format, but the minimum useful description usually
+includes:
 
-- whether a date refers to collection, publication, or update time
-- whether a value is measured or derived
-- whether a category uses local project labels or a wider standard
+- the variable name
+- a definition
+- ideally, a link to the reused ontology term or community definition
 
-These details help others avoid misreading the dataset.
+Some general-purpose vocabularies and metadata schemas include:
 
-## Reuse across projects
+| Resource | Link | Use |
+| --- | --- | --- |
+| Schema.org | <https://schema.org/> | Generic web concepts |
+| DBpedia | <https://www.dbpedia.org/resources/lookup/> | Concepts derived from Wikipedia |
+| DCAT | <https://www.w3.org/TR/vocab-dcat-2/> | Data catalog concepts |
+| Dublin Core | <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> | General metadata terms |
 
-Well-described variables are easier to compare across studies, repositories,
-and software workflows. Even when datasets are not identical, shared language
-makes it easier to spot overlap and understand differences.
+Public registries that help locate vocabularies include:
 
-That is especially useful when:
+- Linked Open Vocabularies: <https://lov.linkeddata.es/dataset/lov/>
+- EU Vocabularies: <https://op.europa.eu/en/web/eu-vocabularies>
+- BioPortal: <https://bioportal.bioontology.org/>
+- AgroPortal: <https://agroportal.lirmm.fr/>
+- EcoPortal: <https://ecoportal.lifewatchitaly.eu/>
+- Ontology Lookup Service: <https://www.ebi.ac.uk/ols/index>
+- Bioschemas: <https://bioschemas.org/>
 
-- combining data from multiple sources
-- reusing legacy datasets after a long time gap
-- handing data to collaborators outside the original team
+::::::::::::::::::::::::::::::::::::: challenge
 
-## What to review in practice
+## Exercise
 
-When improving an existing dataset description, it helps to inspect it with a
-fresh reader in mind.
+Visit BioPortal and search for a term describing `blood glucose level`.
 
-Useful review questions include:
+What ontology term would you reuse, and what persistent identifier does it
+provide?
 
-- Would a new collaborator understand each field without asking for clarification?
-- Are category values and abbreviations explained?
-- Are units, formats, and assumptions stated clearly?
+:::::::::::::::::::::::: solution
 
-Small improvements in these notes can prevent much larger misunderstandings later.
+There is more than one possible match, but a valid answer is to identify a term
+such as the clinical measurement concept and record its ontology URI or other
+persistent identifier provided by the registry.
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Data descriptions are often maintained as tables in `.csv`, `.xlsx`, or similar
+formats. For databases, it is also useful to provide both a machine-readable
+schema and a human-readable diagram.
+
+![Example of a data dictionary table](https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png){alt='Illustration comparing data and data dictionary concepts'}
+
+Other human-friendly approaches include dataset nutrition labels and automated
+codebook tools, but the FAIR principles push further toward structured,
+machine-actionable formats.
+
+## What is the relationship between data descriptions and linked data?
+
+When data descriptions reuse ontology terms and stable identifiers, datasets can
+be transformed into linked data formats such as RDF and become easier to
+combine with other resources.
+
+Tools that can help with this include:
+
+| Tool | Source | GUI | Note |
+| --- | --- | --- | --- |
+| OpenRefine | <https://openrefine.org/> | Yes | Flexible but can be heavy to install |
+| RMLMapper | <https://github.com/RMLio/rmlmapper-java/releases> | No | Powerful, but technical |
+| SDM-RDFizer | <https://github.com/SDM-TIB/SDM-RDFizer> | No | Requires programming familiarity |
+| SPARQL-Generate | <https://ci.mines-stetienne.fr/sparql-generate/> | Yes | Good if you want to learn SPARQL |
+| Virtuoso Universal Server | <https://virtuoso.openlinksw.com/> | Yes | Commercial licensing may apply |
+| UM LDWizard | <https://github.com/MaastrichtU-IDS/ldwizard-humanities> | Yes | Quick route to publishable linked data |
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+## Exercise
+
+Transform a dataset from XLSX to RDF using UM LDWizard:
+
+1. Download the mock dataset: [MOCK DATA](data/MOCK_DATA_BOOTCAMP.xlsx)
+2. Convert the dataset into RDF
+3. Record which ontology terms you reused for the variables
+
+:::::::::::::::::::::::: solution
+
+There is no single correct answer. The important part is to reuse existing
+ontology terms where possible and document the choices you made.
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: discussion
+
+### Scenario
+
+Your marine biology group has discovered new organisms, but you cannot find an
+existing ontology that fits the concepts you need.
+
+What should you do? Should you adapt an existing vocabulary, create local terms,
+or work with the community toward a new ontology extension?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- This episode is being restored conservatively to preserve build stability.
-- Data descriptions help people understand what dataset variables mean.
-- Reusing shared terms makes data easier to compare and combine.
-- A practical description should define fields clearly and note reused terms.
-- Better field descriptions improve later sharing and reuse.
-- Concrete definitions reduce the risk of misinterpreting data fields.
-- Shared descriptions make cross-project reuse easier.
-- Reviewing descriptions from a new reader's perspective improves reuse.
+- Data descriptions may appear under names such as codebook or data dictionary.
+- Reusing ontology terms reduces ambiguity and improves interoperability.
+- A useful description links dataset variables to accepted community concepts.
+- Linked data becomes more feasible when descriptions are structured and
+  identifier-based.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
