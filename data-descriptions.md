@@ -101,6 +101,19 @@ That is especially useful when:
 - reusing legacy datasets after a long time gap
 - handing data to collaborators outside the original team
 
+## What to review in practice
+
+When improving an existing dataset description, it helps to inspect it with a
+fresh reader in mind.
+
+Useful review questions include:
+
+- Would a new collaborator understand each field without asking for clarification?
+- Are category values and abbreviations explained?
+- Are units, formats, and assumptions stated clearly?
+
+Small improvements in these notes can prevent much larger misunderstandings later.
+
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - This episode is being restored conservatively to preserve build stability.
@@ -110,5 +123,6 @@ That is especially useful when:
 - Better field descriptions improve later sharing and reuse.
 - Concrete definitions reduce the risk of misinterpreting data fields.
 - Shared descriptions make cross-project reuse easier.
+- Reviewing descriptions from a new reader's perspective improves reuse.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
