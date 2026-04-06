@@ -215,12 +215,19 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         3. Speak the same language
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#why-shared-language-matters">Why shared language matters</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -362,6 +369,12 @@ interpret and reuse the data correctly.</p>
 <li>data dictionaries</li>
 <li>variable descriptions</li>
 </ul><p>Clear descriptions reduce ambiguity and make later reuse easier.</p>
+<section><h2 class="section-heading" id="why-shared-language-matters">Why shared language matters<a class="anchor" aria-label="anchor" href="#why-shared-language-matters"></a></h2>
+<hr class="half-width"><p>Different teams may use different names for the same concept. A clear
+data description helps readers understand whether two fields really
+refer to the same thing.</p>
+<p>Where possible, reuse established community terms rather than
+inventing a new definition for every project.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -373,13 +386,11 @@ interpret and reuse the data correctly.</p>
 stability.</li>
 <li>Data descriptions help people understand what dataset variables
 mean.</li>
+<li>Reusing shared terms makes data easier to compare and combine.</li>
 </ul></div>
 </div>
 </div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="second.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="access-protocols.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
