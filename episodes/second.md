@@ -1,5 +1,5 @@
 ---
-title: "1. Set up your own terms"
+title: "Set up your own terms"
 teaching: 10
 exercises: 15
 ---
