@@ -76,6 +76,19 @@ Without good descriptions, a dataset may be visible but still difficult to
 interpret correctly. Clear definitions make later sharing, integration, and
 reuse more realistic.
 
+## Examples of useful descriptive detail
+
+The more concrete a description is, the easier it becomes to interpret the
+data correctly.
+
+For example, a helpful description may clarify:
+
+- whether a date refers to collection, publication, or update time
+- whether a value is measured or derived
+- whether a category uses local project labels or a wider standard
+
+These details help others avoid misreading the dataset.
+
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - This episode is being restored conservatively to preserve build stability.
@@ -83,5 +96,6 @@ reuse more realistic.
 - Reusing shared terms makes data easier to compare and combine.
 - A practical description should define fields clearly and note reused terms.
 - Better field descriptions improve later sharing and reuse.
+- Concrete definitions reduce the risk of misinterpreting data fields.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
