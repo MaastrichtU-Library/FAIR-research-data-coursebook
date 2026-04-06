@@ -28,11 +28,11 @@ exercises: 15
 
 Accessible:
 
-- FM-A2 Metadata Longevity: <https://doi.org/10.25504/FAIRsharing.A2W4nz>
+- FM-A2 Metadata Longevity: [https://doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)
 
 Reusable:
 
-- FM-R1.1 Accessible Usage License: <https://doi.org/10.25504/FAIRsharing.fsB7NK>
+- FM-R1.1 Accessible Usage License: [https://doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -46,9 +46,9 @@ licenses, and legal considerations that govern reuse of a data source.
 Examples:
 
 - World Bank terms of use for datasets:
-  <https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets>
+  [https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)
 - Numbeo terms of use:
-  <https://www.numbeo.com/common/terms_of_use.jsp>
+  [https://www.numbeo.com/common/terms_of_use.jsp](https://www.numbeo.com/common/terms_of_use.jsp)
 
 ![Terms of use example from Numbeo](fig/FAIRcoursebook-image1_2.png){alt='Screenshot of another terms of use page'}
 
@@ -85,9 +85,9 @@ framework, check whether terms already exist before drafting a new statement.
 An example of a broader policy framework is the FAIRsharing record for the 1958
 Birth Cohort policy:
 
-- FAIRsharing entry: <https://fairsharing.org/FAIRsharing.z09fg9>
+- FAIRsharing entry: [https://fairsharing.org/FAIRsharing.z09fg9](https://fairsharing.org/FAIRsharing.z09fg9)
 - Original policy document:
-  <https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf>
+  [1958 Birth Cohort policy PDF](https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf)
 
 ## What format should terms of use use?
 
@@ -114,7 +114,7 @@ documentation file.
 
 Visit the City of Philadelphia terms-of-use file:
 
-<https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md>
+[City of Philadelphia terms-of-use file](https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md)
 
 Answer the following:
 
@@ -163,14 +163,14 @@ CC0, and provide your own terms and conditions.
 Useful reference:
 
 - Sample Data Usage Agreement:
-  <https://dataverse.org/best-practices/sample-dua>
+  [https://dataverse.org/best-practices/sample-dua](https://dataverse.org/best-practices/sample-dua)
 
 ## Are there standard licenses we can pick from?
 
 Two commonly used licensing families for data are:
 
-- Creative Commons: <https://creativecommons.org/about/cclicenses/>
-- Open Data Commons: <https://opendatacommons.org/licenses/index.html>
+- Creative Commons: [https://creativecommons.org/about/cclicenses/](https://creativecommons.org/about/cclicenses/)
+- Open Data Commons: [https://opendatacommons.org/licenses/index.html](https://opendatacommons.org/licenses/index.html)
 
 Creative Commons licenses are easy to understand and widely recognized, even if
 they were not designed only for data. Open Data Commons licenses are more
