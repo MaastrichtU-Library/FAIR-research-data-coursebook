@@ -46,6 +46,7 @@ episodes:
 - data-descriptions.md
 - access-protocols.md
 - data-archiving.md
+- rich-metadata.md
 
 profiles:
 - researcher-profile.md
