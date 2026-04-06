@@ -89,6 +89,18 @@ For example, a helpful description may clarify:
 
 These details help others avoid misreading the dataset.
 
+## Reuse across projects
+
+Well-described variables are easier to compare across studies, repositories,
+and software workflows. Even when datasets are not identical, shared language
+makes it easier to spot overlap and understand differences.
+
+That is especially useful when:
+
+- combining data from multiple sources
+- reusing legacy datasets after a long time gap
+- handing data to collaborators outside the original team
+
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - This episode is being restored conservatively to preserve build stability.
@@ -97,5 +109,6 @@ These details help others avoid misreading the dataset.
 - A practical description should define fields clearly and note reused terms.
 - Better field descriptions improve later sharing and reuse.
 - Concrete definitions reduce the risk of misinterpreting data fields.
+- Shared descriptions make cross-project reuse easier.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
