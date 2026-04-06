@@ -2,4 +2,4 @@
 title: Instructor Notes
 ---
 
-Minimal instructor notes placeholder.
+These notes support instruction for the FAIR Research Data Coursebook.
