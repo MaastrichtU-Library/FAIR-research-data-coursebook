@@ -388,7 +388,9 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is this lesson about?</li>
+<li>Does FAIR data mean open data?</li>
+<li>What are digital objects and persistent identifiers?</li>
+<li>What kinds of persistent identifiers are commonly used?</li>
 </ul>
 </div>
 </div>
@@ -398,16 +400,132 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that the Workbench lesson builds with a minimal valid
-episode.</li>
+<li>Understand that FAIR does not simply mean open.</li>
+<li>Explain the difference between human-readable and machine-friendly
+digital objects.</li>
+<li>Recognize DOI as one type of PID used to identify digital
+objects.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>This introduction page is temporarily reduced for Workbench
-debugging.</p>
+<section><h2 class="section-heading" id="does-fair-data-mean-open-data">Does FAIR data mean open data?<a class="anchor" aria-label="anchor" href="#does-fair-data-mean-open-data"></a>
+</h2>
+<hr class="half-width">
+<div id="fair-is-not-identical-to-open" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-is-not-identical-to-open" class="callout-inner">
+<h3 class="callout-title">FAIR is not identical to open</h3>
+<div class="callout-content">
+<p>FAIR means that data and related research objects are designed to be
+easy for humans and machines to find, understand, access, and reuse.
+Some FAIR data can also be open, but openness and FAIRness are not the
+same thing.</p>
+</div>
+</div>
+</div>
+<figure><img src="fig/FAIRcoursebook-image0_1.png" alt="Diagram connecting FAIR and Open Science concepts" class="figure mx-auto d-block"><div class="figcaption">FAIR and Open Science</div>
+</figure><div id="human-readable-vs-machine-friendly" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="human-readable-vs-machine-friendly" class="callout-inner">
+<h3 class="callout-title">Human-readable vs machine-friendly</h3>
+<div class="callout-content">
+<p>Human-readable content is easy for a person to inspect directly, but
+that does not guarantee that software can parse and reuse it
+automatically. Machine readable content uses explicit structure, such as
+CSV, JSON, or XML, so a computer can interpret relationships and values
+without guessing.</p>
+<p>During this lesson, “machine-friendly” is used broadly to mean
+material that is machine-readable and also supports further automated
+action and interoperability.</p>
+</div>
+</div>
+</div>
+<figure><img src="fig/FAIRcoursebook-image0_2.png" alt="Illustration about machine-friendly digital objects" class="figure mx-auto d-block"><div class="figcaption">Machine-friendly digital objects</div>
+</figure></section><section><h2 class="section-heading" id="what-are-digital-objects-and-persistent-identifiers">What are digital objects and persistent identifiers?<a class="anchor" aria-label="anchor" href="#what-are-digital-objects-and-persistent-identifiers"></a>
+</h2>
+<hr class="half-width">
+<p>A digital object is a sequence of bits stored in digital memory that
+has informational value on its own. Examples include:</p>
+<ul>
+<li>a scientific publication</li>
+<li>a dataset</li>
+<li>a rich metadata record</li>
+<li>a README file describing access and reuse conditions</li>
+</ul>
+<p>A persistent identifier, or PID, is a durable reference to a digital
+or physical resource. PIDs are backed by technical infrastructure and
+governance arrangements that help them continue resolving even when the
+resource itself changes location.</p>
+<p>Common uses of PIDs include identifying:</p>
+<ul>
+<li>articles, datasets, and software</li>
+<li>researchers</li>
+<li>organizations and funders</li>
+<li>projects and instruments</li>
+<li>physical samples and media objects</li>
+</ul>
+<p>DOI is one well-known PID type and is commonly used for datasets and
+publications. ORCID is another example, focused on researcher
+identity.</p>
+<p>For a short explainer, see the <a href="https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm" class="external-link">FREYA
+project video on the importance of PIDs</a>.</p>
+<div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit the <a href="https://arxiv.org/list/cs.LG/recent" class="external-link">recent
+machine learning submissions on arXiv</a>.</p>
+<p>Pick a paper, open its PDF, and search for <code>http</code> or
+<code>doi</code>.</p>
+<p>What kinds of links do the authors use for data or software
+references, and why is a DOI usually more robust than a personal website
+or repository link alone?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Authors often link to GitHub repositories, project pages, or other
+web pages for software and data. Those locations may move or disappear
+over time. A DOI is more robust because it resolves through persistent
+infrastructure and points to current metadata about the object even if
+the storage location changes.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="reflection" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="reflection" class="callout-inner">
+<h3 class="callout-title">Reflection</h3>
+<div class="callout-content">
+<p>How does your discipline usually share data? Is there a data journal,
+domain repository, or another community-specific mechanism for making
+research outputs findable and reusable?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -416,12 +534,18 @@ debugging.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>The lesson is being tested with a minimal valid episode
-structure.</li>
+<li>FAIR means making research objects more usable by humans and
+machines, not automatically making them open.</li>
+<li>Machine-friendly objects are structured so software can interpret
+and reuse them reliably.</li>
+<li>Digital objects include datasets, publications, metadata records,
+and related documentation.</li>
+<li>DOI is a common PID used for datasets and publications.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-second"><p>Content from <a href="second.html">Set up your own terms</a></p>
+</div>
+</section></section><section id="aio-second"><p>Content from <a href="second.html">Set up your own terms</a></p>
 <hr>
 <p>Last updated on 2026-04-06 |
 
@@ -439,7 +563,8 @@ structure.</li>
 <ul>
 <li>What are data terms of use?</li>
 <li>What should a data terms of use statement contain?</li>
-<li>When is a standard license enough?</li>
+<li>What format should terms of use use?</li>
+<li>What standard licenses are available for data?</li>
 </ul>
 </div>
 </div>
@@ -449,16 +574,305 @@ structure.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that a second episode builds when only a small amount of
-plain text is added.</li>
+<li>Understand what data terms of use are and why they matter.</li>
+<li>Identify the minimum components of a basic terms of use
+statement.</li>
+<li>Recognize when a standard license is sufficient and when a custom
+agreement is needed.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>Data terms of use are a short text statement that explains how a
-dataset may be reused.</p>
+<div id="fair-principles-used-in-data-terms-of-use" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-in-data-terms-of-use" class="callout-inner">
+<h3 class="callout-title">FAIR principles used in data terms of use</h3>
+<div class="callout-content">
+<p>Accessible:</p>
+<ul>
+<li>FM-A2 Metadata Longevity: <a href="https://doi.org/10.25504/FAIRsharing.A2W4nz" class="external-link uri">https://doi.org/10.25504/FAIRsharing.A2W4nz</a>
+</li>
+</ul>
+<p>Reusable:</p>
+<ul>
+<li>FM-R1.1 Accessible Usage License: <a href="https://doi.org/10.25504/FAIRsharing.fsB7NK" class="external-link uri">https://doi.org/10.25504/FAIRsharing.fsB7NK</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-are-data-terms-of-use">What are data terms of use?<a class="anchor" aria-label="anchor" href="#what-are-data-terms-of-use"></a>
+</h2>
+<hr class="half-width">
+<p>Data terms of use are a textual statement that sets out the rules,
+conditions, licenses, and legal considerations that govern reuse of a
+data source.</p>
+<figure><img src="fig/FAIRcoursebook-image1_1.png" alt="Screenshot of a data terms of use page" class="figure mx-auto d-block"><div class="figcaption">Terms of use example from the World Bank</div>
+</figure><p>Examples:</p>
+<ul>
+<li>World Bank terms of use for datasets: <a href="https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets" class="external-link uri">https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets</a>
+</li>
+<li>Numbeo terms of use: <a href="https://www.numbeo.com/common/terms_of_use.jsp" class="external-link uri">https://www.numbeo.com/common/terms_of_use.jsp</a>
+</li>
+</ul>
+<figure><img src="fig/FAIRcoursebook-image1_2.png" alt="Screenshot of another terms of use page" class="figure mx-auto d-block"><div class="figcaption">Terms of use example from Numbeo</div>
+</figure><p>These examples show that terms of use usually describe the resource,
+the conditions under which it may be reused, and any expectations around
+attribution or restrictions.</p>
+</section><section><h2 class="section-heading" id="what-must-a-terms-of-use-statement-contain">What must a terms of use statement contain?<a class="anchor" aria-label="anchor" href="#what-must-a-terms-of-use-statement-contain"></a>
+</h2>
+<hr class="half-width">
+<p>As a minimum, a data terms of use statement should cover the
+following elements:</p>
+<table class="table">
+<colgroup>
+<col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup>
+<thead><tr>
+<th>Section</th>
+<th>Description</th>
+<th>Example</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>What the statement refers to and which digital objects it
+covers</td>
+<td>“These terms apply to the Happy Dataset.”</td>
+</tr>
+<tr>
+<td>License</td>
+<td>Under which conditions reuse is allowed</td>
+<td>“The Happy Dataset is in the public domain.”</td>
+</tr>
+<tr>
+<td>Attribution</td>
+<td>How the data should be cited or acknowledged</td>
+<td>“Please cite the Happy Dataset.”</td>
+</tr>
+<tr>
+<td>Disclaimer</td>
+<td>Important limitations or caveats</td>
+<td>“The last 100 records may contain selection bias.”</td>
+</tr>
+</tbody>
+</table>
+<p>Depending on the context, the statement may need additional clauses
+for multiple databases, sensitive data, embargoes, or obligations coming
+from a larger funded project.</p>
+<div id="terms-of-use-are-part-of-the-legal-basis-for-reuse" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="terms-of-use-are-part-of-the-legal-basis-for-reuse" class="callout-inner">
+<h3 class="callout-title">Terms of use are part of the legal basis for
+reuse</h3>
+<div class="callout-content">
+<p>The terms of use statement is the formal basis on which others may
+access and reuse a data source. If your work sits inside a larger
+project or policy framework, check whether terms already exist before
+drafting a new statement.</p>
+</div>
+</div>
+</div>
+<p>An example of a broader policy framework is the FAIRsharing record
+for the 1958 Birth Cohort policy:</p>
+<ul>
+<li>FAIRsharing entry: <a href="https://fairsharing.org/FAIRsharing.z09fg9" class="external-link uri">https://fairsharing.org/FAIRsharing.z09fg9</a>
+</li>
+<li>Original policy document: <a href="https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf" class="external-link uri">https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf</a>
+</li>
+</ul></section><section><h2 class="section-heading" id="what-format-should-terms-of-use-use">What format should terms of use use?<a class="anchor" aria-label="anchor" href="#what-format-should-terms-of-use-use"></a>
+</h2>
+<hr class="half-width">
+<p>Terms of use should be stored as plain text in a machine-friendly
+format such as <code>.txt</code>, <code>.md</code>, or
+<code>.html</code>. The exact length and level of detail will vary by
+project, but the statement should be easy for people to read and for
+systems to preserve.</p>
+<div id="keep-the-statement-in-an-accessible-text-format" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="keep-the-statement-in-an-accessible-text-format" class="callout-inner">
+<h3 class="callout-title">Keep the statement in an accessible text
+format</h3>
+<div class="callout-content">
+<p>You can draft terms of use in almost any editor, but the final
+version should be stored in a format that does not depend on proprietary
+software to read it.</p>
+</div>
+</div>
+</div>
+<p>Many projects place the statement in a <code>README</code>,
+<code>LICENSE</code>, or similar documentation file.</p>
+<div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit the City of Philadelphia terms-of-use file:</p>
+<p><a href="https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md" class="external-link uri">https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md</a></p>
+<p>Answer the following:</p>
+<ul>
+<li>What kind of resource is it about?</li>
+<li>In what format is the statement written?</li>
+<li>On which platform is it published?</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ul>
+<li>It is a terms-of-use style statement published for city-maintained
+digital resources.</li>
+<li>The file format is Markdown (<code>.md</code>).</li>
+<li>It is published on GitHub.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p>The statement itself often lives next to the data documentation:</p>
+<figure><img src="fig/FAIRcoursebook-image1_3.png" alt="Folder structure containing a README or license file" class="figure mx-auto d-block"><div class="figcaption">Folder layout showing terms of use
+documentation</div>
+</figure><p>Some repositories let you define tailored reuse conditions directly
+on the platform. Dataverse, for example, defaults to a CC0 waiver but
+also allows custom terms after dataset creation.</p>
+<figure><img src="fig/FAIRcoursebook-image1_4.png" alt="Repository interface showing license and terms options" class="figure mx-auto d-block"><div class="figcaption">Terms and license settings in a repository
+interface</div>
+</figure><div id="exercise-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Is it possible to edit terms of use in DataverseNL?</p>
+<p>Check the DataverseNL documentation or FAQ and find the answer.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>Yes. After creating a dataset, you can go to the Terms tab, choose
+not to apply CC0, and provide your own terms and conditions.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Useful reference:</p>
+<ul>
+<li>Sample Data Usage Agreement: <a href="https://dataverse.org/best-practices/sample-dua" class="external-link uri">https://dataverse.org/best-practices/sample-dua</a>
+</li>
+</ul></section><section><h2 class="section-heading" id="are-there-standard-licenses-we-can-pick-from">Are there standard licenses we can pick from?<a class="anchor" aria-label="anchor" href="#are-there-standard-licenses-we-can-pick-from"></a>
+</h2>
+<hr class="half-width">
+<p>Two commonly used licensing families for data are:</p>
+<ul>
+<li>Creative Commons: <a href="https://creativecommons.org/about/cclicenses/" class="external-link uri">https://creativecommons.org/about/cclicenses/</a>
+</li>
+<li>Open Data Commons: <a href="https://opendatacommons.org/licenses/index.html" class="external-link uri">https://opendatacommons.org/licenses/index.html</a>
+</li>
+</ul>
+<p>Creative Commons licenses are easy to understand and widely
+recognized, even if they were not designed only for data. Open Data
+Commons licenses are more explicitly data-oriented.</p>
+<table class="table">
+<thead><tr>
+<th>Mark</th>
+<th>Meaning</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>BY</td>
+<td>Creator must be credited</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Derivatives or redistributions must use the same license</td>
+</tr>
+<tr>
+<td>NC</td>
+<td>Only non-commercial uses are allowed</td>
+</tr>
+<tr>
+<td>ND</td>
+<td>No derivatives are allowed</td>
+</tr>
+</tbody>
+</table>
+<div id="exercise-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-2" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Choose a Creative Commons license for simulation data under these
+conditions:</p>
+<ul>
+<li>others cannot modify the work</li>
+<li>commercial reuse is allowed</li>
+</ul>
+<p>Which license fits?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>Attribution-NoDerivatives 4.0 International, or CC BY-ND 4.0.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>You are collaborating on a study of quality of life in children and
+plan to collect potentially sensitive information about bullying, social
+media, and family structure.</p>
+<p>What should be considered when drafting terms of use for this study?
+Should the statement be drafted only by the researchers, or should legal
+and governance support be involved?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -467,12 +881,19 @@ dataset may be reused.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>A second episode is being rebuilt by adding back plain text in small
-steps.</li>
+<li>A data terms of use statement defines the legal and practical basis
+for reuse.</li>
+<li>A license is the minimum requirement, but some projects need richer
+terms or a custom agreement.</li>
+<li>Store terms of use in an accessible text format such as
+<code>.md</code> or <code>.txt</code>.</li>
+<li>If a standard license does not fit the project, a tailored
+terms-of-use statement or usage agreement may be necessary.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-data-descriptions"><p>Content from <a href="data-descriptions.html">Speak the same language</a></p>
+</div>
+</section></section><section id="aio-data-descriptions"><p>Content from <a href="data-descriptions.html">Speak the same language</a></p>
 <hr>
 <p>Last updated on 2026-04-06 |
 
@@ -489,6 +910,10 @@ steps.</li>
 <h3 class="card-title">Questions</h3>
 <ul>
 <li>What are data descriptions?</li>
+<li>How can data descriptions be reused?</li>
+<li>Are there standard ways to create them?</li>
+<li>What is the relationship between data descriptions and linked
+data?</li>
 </ul>
 </div>
 </div>
@@ -498,113 +923,339 @@ steps.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that this episode path builds with minimal valid
-content.</li>
-<li>Recognize that data descriptions help people interpret dataset
-variables.</li>
+<li>Recognize that different communities use different names for data
+descriptions.</li>
+<li>Learn how to build machine-friendly data description files.</li>
+<li>Understand why reusing ontology terms improves
+interoperability.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>Data descriptions explain what dataset fields mean so that others can
-interpret and reuse the data correctly.</p>
-<p>Depending on the community, similar documents may also be called:</p>
+<div id="fair-principles-used-in-data-descriptions" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-in-data-descriptions" class="callout-inner">
+<h3 class="callout-title">FAIR principles used in data descriptions</h3>
+<div class="callout-content">
+<p>Interoperable:</p>
+<ul>
+<li>FM-I1 Use a Knowledge Representation Language: <a href="https://doi.org/10.25504/FAIRsharing.jLpL6i" class="external-link uri">https://doi.org/10.25504/FAIRsharing.jLpL6i</a>
+</li>
+<li>FM-I2 Use FAIR Vocabularies: <a href="https://doi.org/10.25504/FAIRsharing.0A9kNV" class="external-link uri">https://doi.org/10.25504/FAIRsharing.0A9kNV</a>
+</li>
+</ul>
+<p>Reusable:</p>
+<ul>
+<li>FM-R1.3 Meets Community Standards: <a href="https://doi.org/10.25504/FAIRsharing.cuyPH9" class="external-link uri">https://doi.org/10.25504/FAIRsharing.cuyPH9</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-are-data-descriptions">What are data descriptions?<a class="anchor" aria-label="anchor" href="#what-are-data-descriptions"></a>
+</h2>
+<hr class="half-width">
+<p>Data descriptions document the meaning of each data attribute or
+variable in a dataset.</p>
+<p>Depending on the discipline, similar documents may be called:</p>
 <ul>
 <li>codebooks</li>
 <li>data dictionaries</li>
-<li>variable descriptions</li>
+<li>labels or data tags</li>
+<li>data glossaries</li>
 </ul>
-<p>Clear descriptions reduce ambiguity and make later reuse easier.</p>
-<section><h2 class="section-heading" id="why-shared-language-matters">Why shared language matters<a class="anchor" aria-label="anchor" href="#why-shared-language-matters"></a>
+<p>Example:</p>
+<table class="table">
+<thead><tr>
+<th>Variable name</th>
+<th>Description</th>
+<th>Scale</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Weight</td>
+<td>Weight of a human</td>
+<td>kilograms</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Height of a human</td>
+<td>centimetres</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Age of a human</td>
+<td>years</td>
+</tr>
+<tr>
+<td>Blood glucose level</td>
+<td>Blood glucose level of a human</td>
+<td>mg/dl</td>
+</tr>
+</tbody>
+</table>
+<div id="different-fields-use-different-names" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="different-fields-use-different-names" class="callout-inner">
+<h3 class="callout-title">Different fields use different names</h3>
+<div class="callout-content">
+<p>No matter what the document is called, the goal is the same: describe
+what the dataset variables mean so others can interpret and reuse the
+data correctly.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="how-can-data-descriptions-be-reused">How can data descriptions be reused?<a class="anchor" aria-label="anchor" href="#how-can-data-descriptions-be-reused"></a>
 </h2>
 <hr class="half-width">
-<p>Different teams may use different names for the same concept. A clear
-data description helps readers understand whether two fields really
-refer to the same thing.</p>
-<p>Where possible, reuse established community terms rather than
-inventing a new definition for every project.</p>
-</section><section><h2 class="section-heading" id="reusing-existing-terms">Reusing existing terms<a class="anchor" aria-label="anchor" href="#reusing-existing-terms"></a>
-</h2>
-<hr class="half-width">
-<p>When a concept is already described by a community vocabulary or
-ontology, it is often better to reuse that definition than to write a
-completely local one.</p>
-<p>This helps:</p>
+<p>Writing documentation takes time, so when possible you should reuse
+accepted community definitions instead of inventing a new description
+every time.</p>
+<p>BioPortal is a good example of a registry where community-maintained
+ontology terms can be searched and reused:</p>
 <ul>
-<li>reduce ambiguity</li>
-<li>improve interoperability</li>
-<li>make comparisons across datasets easier</li>
-</ul></section><section><h2 class="section-heading" id="practical-minimum">Practical minimum<a class="anchor" aria-label="anchor" href="#practical-minimum"></a>
-</h2>
-<hr class="half-width">
-<p>A useful data description usually includes:</p>
-<ul>
-<li>the variable or field name</li>
-<li>a short definition</li>
-<li>units or scale where relevant</li>
-<li>links to reused community terms when available</li>
-</ul></section><section><h2 class="section-heading" id="from-local-notes-to-interoperable-descriptions">From local notes to interoperable descriptions<a class="anchor" aria-label="anchor" href="#from-local-notes-to-interoperable-descriptions"></a>
-</h2>
-<hr class="half-width">
-<p>Many projects begin with informal notes in spreadsheets, lab books,
-or README files. Those notes are useful, but they become more valuable
-when they are written consistently and can be understood outside the
-original team.</p>
-<p>A good next step is to review descriptions field by field and make
-sure that:</p>
-<ul>
-<li>abbreviations are explained</li>
-<li>measurement units are explicit</li>
-<li>coded values are defined</li>
-<li>reused concepts are named consistently</li>
-</ul></section><section><h2 class="section-heading" id="why-this-matters-for-fair-data">Why this matters for FAIR data<a class="anchor" aria-label="anchor" href="#why-this-matters-for-fair-data"></a>
-</h2>
-<hr class="half-width">
-<p>Without good descriptions, a dataset may be visible but still
-difficult to interpret correctly. Clear definitions make later sharing,
-integration, and reuse more realistic.</p>
-</section><section><h2 class="section-heading" id="examples-of-useful-descriptive-detail">Examples of useful descriptive detail<a class="anchor" aria-label="anchor" href="#examples-of-useful-descriptive-detail"></a>
-</h2>
-<hr class="half-width">
-<p>The more concrete a description is, the easier it becomes to
-interpret the data correctly.</p>
-<p>For example, a helpful description may clarify:</p>
-<ul>
-<li>whether a date refers to collection, publication, or update
-time</li>
-<li>whether a value is measured or derived</li>
-<li>whether a category uses local project labels or a wider
-standard</li>
+<li>BioPortal: <a href="https://bioportal.bioontology.org/" class="external-link uri">https://bioportal.bioontology.org/</a>
+</li>
 </ul>
-<p>These details help others avoid misreading the dataset.</p>
-</section><section><h2 class="section-heading" id="reuse-across-projects">Reuse across projects<a class="anchor" aria-label="anchor" href="#reuse-across-projects"></a>
-</h2>
-<hr class="half-width">
-<p>Well-described variables are easier to compare across studies,
-repositories, and software workflows. Even when datasets are not
-identical, shared language makes it easier to spot overlap and
-understand differences.</p>
-<p>That is especially useful when:</p>
+<p><img src="fig/FAIRcoursebook-image2_1.png" alt="BioPortal search results interface" class="figure"><img src="fig/FAIRcoursebook-image2_2.png" alt="Different ontology matches for the same concept" class="figure"><img src="fig/FAIRcoursebook-image2_3.png" alt="Ontology entry with persistent identifier" class="figure"></p>
+<div id="reuse-ontology-terms-when-possible" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="reuse-ontology-terms-when-possible" class="callout-inner">
+<h3 class="callout-title">Reuse ontology terms when possible</h3>
+<div class="callout-content">
+<p>Advantages:</p>
 <ul>
-<li>combining data from multiple sources</li>
-<li>reusing legacy datasets after a long time gap</li>
-<li>handing data to collaborators outside the original team</li>
-</ul></section><section><h2 class="section-heading" id="what-to-review-in-practice">What to review in practice<a class="anchor" aria-label="anchor" href="#what-to-review-in-practice"></a>
-</h2>
-<hr class="half-width">
-<p>When improving an existing dataset description, it helps to inspect
-it with a fresh reader in mind.</p>
-<p>Useful review questions include:</p>
-<ul>
-<li>Would a new collaborator understand each field without asking for
-clarification?</li>
-<li>Are category values and abbreviations explained?</li>
-<li>Are units, formats, and assumptions stated clearly?</li>
+<li>you do not need to redefine common concepts repeatedly</li>
+<li>you gain a persistent identifier for the concept</li>
+<li>other systems can align variables across datasets more easily</li>
 </ul>
-<p>Small improvements in these notes can prevent much larger
-misunderstandings later.</p>
+<p>Disadvantages:</p>
+<ul>
+<li>sometimes no existing ontology fits the exact concept you need</li>
+</ul>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="are-there-standard-ways-to-create-data-descriptions">Are there standard ways to create data descriptions?<a class="anchor" aria-label="anchor" href="#are-there-standard-ways-to-create-data-descriptions"></a>
+</h2>
+<hr class="half-width">
+<p>There is no single universal format, but the minimum useful
+description usually includes:</p>
+<ul>
+<li>the variable name</li>
+<li>a definition</li>
+<li>ideally, a link to the reused ontology term or community
+definition</li>
+</ul>
+<p>Some general-purpose vocabularies and metadata schemas include:</p>
+<table class="table">
+<colgroup>
+<col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup>
+<thead><tr>
+<th>Resource</th>
+<th>Link</th>
+<th>Use</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Schema.org</td>
+<td><a href="https://schema.org/" class="external-link uri">https://schema.org/</a></td>
+<td>Generic web concepts</td>
+</tr>
+<tr>
+<td>DBpedia</td>
+<td><a href="https://www.dbpedia.org/resources/lookup/" class="external-link uri">https://www.dbpedia.org/resources/lookup/</a></td>
+<td>Concepts derived from Wikipedia</td>
+</tr>
+<tr>
+<td>DCAT</td>
+<td><a href="https://www.w3.org/TR/vocab-dcat-2/" class="external-link uri">https://www.w3.org/TR/vocab-dcat-2/</a></td>
+<td>Data catalog concepts</td>
+</tr>
+<tr>
+<td>Dublin Core</td>
+<td><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link uri">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a></td>
+<td>General metadata terms</td>
+</tr>
+</tbody>
+</table>
+<p>Public registries that help locate vocabularies include:</p>
+<ul>
+<li>Linked Open Vocabularies: <a href="https://lov.linkeddata.es/dataset/lov/" class="external-link uri">https://lov.linkeddata.es/dataset/lov/</a>
+</li>
+<li>EU Vocabularies: <a href="https://op.europa.eu/en/web/eu-vocabularies" class="external-link uri">https://op.europa.eu/en/web/eu-vocabularies</a>
+</li>
+<li>BioPortal: <a href="https://bioportal.bioontology.org/" class="external-link uri">https://bioportal.bioontology.org/</a>
+</li>
+<li>AgroPortal: <a href="https://agroportal.lirmm.fr/" class="external-link uri">https://agroportal.lirmm.fr/</a>
+</li>
+<li>EcoPortal: <a href="https://ecoportal.lifewatchitaly.eu/" class="external-link uri">https://ecoportal.lifewatchitaly.eu/</a>
+</li>
+<li>Ontology Lookup Service: <a href="https://www.ebi.ac.uk/ols/index" class="external-link uri">https://www.ebi.ac.uk/ols/index</a>
+</li>
+<li>Bioschemas: <a href="https://bioschemas.org/" class="external-link uri">https://bioschemas.org/</a>
+</li>
+</ul>
+<div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit BioPortal and search for a term describing
+<code>blood glucose level</code>.</p>
+<p>What ontology term would you reuse, and what persistent identifier
+does it provide?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>There is more than one possible match, but a valid answer is to
+identify a term such as the clinical measurement concept and record its
+ontology URI or other persistent identifier provided by the
+registry.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Data descriptions are often maintained as tables in
+<code>.csv</code>, <code>.xlsx</code>, or similar formats. For
+databases, it is also useful to provide both a machine-readable schema
+and a human-readable diagram.</p>
+<figure><img src="https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png" alt="Illustration comparing data and data dictionary concepts" class="figure mx-auto d-block"><div class="figcaption">Example of a data dictionary table</div>
+</figure><p>Other human-friendly approaches include dataset nutrition labels and
+automated codebook tools, but the FAIR principles push further toward
+structured, machine-actionable formats.</p>
+</section><section><h2 class="section-heading" id="what-is-the-relationship-between-data-descriptions-and-linked-data">What is the relationship between data descriptions and linked
+data?<a class="anchor" aria-label="anchor" href="#what-is-the-relationship-between-data-descriptions-and-linked-data"></a>
+</h2>
+<hr class="half-width">
+<p>When data descriptions reuse ontology terms and stable identifiers,
+datasets can be transformed into linked data formats such as RDF and
+become easier to combine with other resources.</p>
+<p>Tools that can help with this include:</p>
+<table class="table">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr>
+<th>Tool</th>
+<th>Source</th>
+<th>GUI</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>OpenRefine</td>
+<td><a href="https://openrefine.org/" class="external-link uri">https://openrefine.org/</a></td>
+<td>Yes</td>
+<td>Flexible but can be heavy to install</td>
+</tr>
+<tr>
+<td>RMLMapper</td>
+<td><a href="https://github.com/RMLio/rmlmapper-java/releases" class="external-link uri">https://github.com/RMLio/rmlmapper-java/releases</a></td>
+<td>No</td>
+<td>Powerful, but technical</td>
+</tr>
+<tr>
+<td>SDM-RDFizer</td>
+<td><a href="https://github.com/SDM-TIB/SDM-RDFizer" class="external-link uri">https://github.com/SDM-TIB/SDM-RDFizer</a></td>
+<td>No</td>
+<td>Requires programming familiarity</td>
+</tr>
+<tr>
+<td>SPARQL-Generate</td>
+<td><a href="https://ci.mines-stetienne.fr/sparql-generate/" class="external-link uri">https://ci.mines-stetienne.fr/sparql-generate/</a></td>
+<td>Yes</td>
+<td>Good if you want to learn SPARQL</td>
+</tr>
+<tr>
+<td>Virtuoso Universal Server</td>
+<td><a href="https://virtuoso.openlinksw.com/" class="external-link uri">https://virtuoso.openlinksw.com/</a></td>
+<td>Yes</td>
+<td>Commercial licensing may apply</td>
+</tr>
+<tr>
+<td>UM LDWizard</td>
+<td><a href="https://github.com/MaastrichtU-IDS/ldwizard-humanities" class="external-link uri">https://github.com/MaastrichtU-IDS/ldwizard-humanities</a></td>
+<td>Yes</td>
+<td>Quick route to publishable linked data</td>
+</tr>
+</tbody>
+</table>
+<div id="exercise-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Transform a dataset from XLSX to RDF using UM LDWizard:</p>
+<ol style="list-style-type: decimal">
+<li>Download the mock dataset: <a href="data/MOCK_DATA_BOOTCAMP.xlsx">MOCK DATA</a>
+</li>
+<li>Convert the dataset into RDF</li>
+<li>Record which ontology terms you reused for the variables</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>There is no single correct answer. The important part is to reuse
+existing ontology terms where possible and document the choices you
+made.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>Your marine biology group has discovered new organisms, but you
+cannot find an existing ontology that fits the concepts you need.</p>
+<p>What should you do? Should you adapt an existing vocabulary, create
+local terms, or work with the community toward a new ontology
+extension?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -613,19 +1264,14 @@ misunderstandings later.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>This episode is being restored conservatively to preserve build
-stability.</li>
-<li>Data descriptions help people understand what dataset variables
-mean.</li>
-<li>Reusing shared terms makes data easier to compare and combine.</li>
-<li>A practical description should define fields clearly and note reused
-terms.</li>
-<li>Better field descriptions improve later sharing and reuse.</li>
-<li>Concrete definitions reduce the risk of misinterpreting data
-fields.</li>
-<li>Shared descriptions make cross-project reuse easier.</li>
-<li>Reviewing descriptions from a new reader’s perspective improves
-reuse.</li>
+<li>Data descriptions may appear under names such as codebook or data
+dictionary.</li>
+<li>Reusing ontology terms reduces ambiguity and improves
+interoperability.</li>
+<li>A useful description links dataset variables to accepted community
+concepts.</li>
+<li>Linked data becomes more feasible when descriptions are structured
+and identifier-based.</li>
 </ul>
 </div>
 </div>
@@ -646,7 +1292,9 @@ reuse.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What are access protocols?</li>
+<li>What are data access protocols?</li>
+<li>Is open access a data access protocol?</li>
+<li>Can data be exposed as a service through FAIR API protocols?</li>
 </ul>
 </div>
 </div>
@@ -656,16 +1304,259 @@ reuse.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that this episode path builds with minimal valid
-content.</li>
+<li>Learn what data access protocols are.</li>
+<li>Distinguish between human-facing and machine-facing access
+instructions.</li>
+<li>Explore how FAIR API protocols can expose data as a service.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>This episode is temporarily reduced to a minimal Workbench-compatible
-placeholder.</p>
+<div id="fair-principles-used-in-data-access-protocols" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-in-data-access-protocols" class="callout-inner">
+<h3 class="callout-title">FAIR principles used in data access
+protocols</h3>
+<div class="callout-content">
+<p>Accessible:</p>
+<ul>
+<li>FM-A1.1 Access Protocol: <a href="https://doi.org/10.25504/FAIRsharing.yDJci5" class="external-link uri">https://doi.org/10.25504/FAIRsharing.yDJci5</a>
+</li>
+<li>FM-A1.2 Access Authorization: <a href="https://doi.org/10.25504/FAIRsharing.EwnE1n" class="external-link uri">https://doi.org/10.25504/FAIRsharing.EwnE1n</a>
+</li>
+</ul>
+<p>Interoperable:</p>
+<ul>
+<li>FM-I3 Use Qualified References: <a href="https://doi.org/10.25504/FAIRsharing.B2sbNh" class="external-link uri">https://doi.org/10.25504/FAIRsharing.B2sbNh</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-are-data-access-protocols">What are data access protocols?<a class="anchor" aria-label="anchor" href="#what-are-data-access-protocols"></a>
+</h2>
+<hr class="half-width">
+<p>Data access protocols are the explicit rules and steps that tell
+humans or machines how to access a data source.</p>
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Electronic_access_control_%28BSL3_Lab%29_using_personal_identification_number_%28PIN%29.jpg" alt="Electronic access control system with keypad" class="figure mx-auto d-block"><div class="figcaption">Electronic access control system</div>
+</figure><p>Just as you need the correct key, code, or procedure to enter a
+secure room, data access often depends on following the correct
+process.</p>
+<table class="table">
+<colgroup>
+<col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup>
+<thead><tr>
+<th>Access protocol</th>
+<th>Example</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Communication between machines</td>
+<td>HTTP request or API call</td>
+<td>A machine requests information using a standard network
+protocol</td>
+</tr>
+<tr>
+<td>Communication between humans</td>
+<td>Data request form or email workflow</td>
+<td>A person follows explicit instructions to request access</td>
+</tr>
+</tbody>
+</table>
+<p><img src="fig/FAIRcoursebook-image3_1.png" alt="Example of a human-oriented access workflow" class="figure"><img src="fig/FAIRcoursebook-image3_2.png" alt="Screenshot of a human-facing data request form" class="figure"></p>
+<div id="protocols-are-rules-communicated-in-a-shared-language" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="protocols-are-rules-communicated-in-a-shared-language" class="callout-inner">
+<h3 class="callout-title">Protocols are rules communicated in a shared
+language</h3>
+<div class="callout-content">
+<p>Humans may use a written access policy or form, while machines use
+APIs and network protocols such as HTTP. Common API styles include SOAP,
+REST, and SPARQL.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="is-open-access-a-data-access-protocol">Is open access a data access protocol?<a class="anchor" aria-label="anchor" href="#is-open-access-a-data-access-protocol"></a>
+</h2>
+<hr class="half-width">
+<p>Strictly speaking, open access is a policy framework rather than a
+network protocol, but in practice it functions as an access model with
+explicit rules: the data can be retrieved openly without individual
+authorization.</p>
+<p>Depositing data in a public repository often gives the resource an
+open-access access route automatically. Some open datasets also expose
+machine-readable access through APIs or SPARQL endpoints.</p>
+<p>Example:</p>
+<ul>
+<li>EU public data SPARQL interface: <a href="https://data.europa.eu/data/sparql" class="external-link uri">https://data.europa.eu/data/sparql</a>
+</li>
+<li>Endpoint: <a href="https://data.europa.eu/sparql" class="external-link uri">https://data.europa.eu/sparql</a>
+</li>
+</ul>
+<figure><img src="fig/FAIRcoursebook-image3_3.png" alt="Screenshot of a SPARQL endpoint example" class="figure mx-auto d-block"><div class="figcaption">EU public data SPARQL example</div>
+</figure><div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit the Zenodo COVID-19 community:</p>
+<p><a href="https://zenodo.org/communities/covid-19/" class="external-link uri">https://zenodo.org/communities/covid-19/</a></p>
+<p>What is the default data access protocol visible for the displayed
+records?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>The records are presented as open access resources, which is visible
+through the repository interface and download behavior.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="open-access-can-be-human-friendly-and-machine-friendly" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="open-access-can-be-human-friendly-and-machine-friendly" class="callout-inner">
+<h3 class="callout-title">Open access can be human-friendly and
+machine-friendly</h3>
+<div class="callout-content">
+<p>Humans see direct download options. Machines see stable web requests
+and, in some systems, structured service endpoints.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="can-data-be-exposed-as-a-service-through-fair-api-protocols">Can data be exposed as a service through FAIR API protocols?<a class="anchor" aria-label="anchor" href="#can-data-be-exposed-as-a-service-through-fair-api-protocols"></a>
+</h2>
+<hr class="half-width">
+<p>Yes, but it requires technical infrastructure and some familiarity
+with linked data or knowledge graph tooling.</p>
+<p>Useful tools include:</p>
+<table class="table">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr>
+<th>Tool</th>
+<th>Source</th>
+<th>GUI</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>TriplyDB</td>
+<td><a href="https://triplydb.com/" class="external-link uri">https://triplydb.com/</a></td>
+<td>Yes</td>
+<td>Quick hosted option for exposing data</td>
+</tr>
+<tr>
+<td>GraphDB</td>
+<td><a href="https://www.ontotext.com/products/graphdb/" class="external-link uri">https://www.ontotext.com/products/graphdb/</a></td>
+<td>Yes</td>
+<td>Requires a server or managed deployment</td>
+</tr>
+<tr>
+<td>FAIR Data Point</td>
+<td><a href="https://github.com/fair-data/fairdatapoint" class="external-link uri">https://github.com/fair-data/fairdatapoint</a></td>
+<td>No</td>
+<td>Powerful but technical</td>
+</tr>
+<tr>
+<td>rdflib-endpoint</td>
+<td><a href="https://pypi.org/project/rdflib-endpoint/" class="external-link uri">https://pypi.org/project/rdflib-endpoint/</a></td>
+<td>No</td>
+<td>Fast local route for experimentation</td>
+</tr>
+</tbody>
+</table>
+<div id="register-fair-apis-where-others-can-find-them" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="register-fair-apis-where-others-can-find-them" class="callout-inner">
+<h3 class="callout-title">Register FAIR APIs where others can find
+them</h3>
+<div class="callout-content">
+<p>If you expose a FAIR API or similar service endpoint, register it in
+an appropriate service registry such as SMART API:</p>
+<p><a href="https://www.smart-api.info/" class="external-link uri">https://www.smart-api.info/</a></p>
+</div>
+</div>
+</div>
+<div id="exercise-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Expose RDF data through a service endpoint:</p>
+<ol style="list-style-type: decimal">
+<li>Reuse the RDF data generated from the data descriptions episode, or
+bring another RDF file.</li>
+<li>Install <code>rdflib-endpoint</code>.</li>
+<li>Run a local service and confirm that the data can be queried.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>This is intentionally optional. The goal is to understand what it
+takes to move from static downloadable data to a service-oriented access
+model.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>You have sensitive financial information that cannot be openly
+disclosed, but you still want to enable legitimate research access.</p>
+<p>What kind of human and machine access protocols would you design?
+What should be openly visible, and what should only be available behind
+review or controlled authorization?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -674,12 +1565,19 @@ placeholder.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>This episode is being restored conservatively to preserve build
-stability.</li>
+<li>Data access protocols describe how humans and machines gain access
+to data.</li>
+<li>Open access is an access model that can still be expressed through
+explicit rules and interfaces.</li>
+<li>Human-facing request forms and machine-facing APIs are both
+important access patterns in FAIR data practice.</li>
+<li>FAIR service endpoints are more useful when they are registered and
+discoverable.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-data-archiving"><p>Content from <a href="data-archiving.html">Publish and preserve</a></p>
+</div>
+</section></section><section id="aio-data-archiving"><p>Content from <a href="data-archiving.html">Publish and preserve</a></p>
 <hr>
 <p>Last updated on 2026-04-06 |
 
@@ -695,7 +1593,9 @@ stability.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>Why does data archiving matter?</li>
+<li>What is data archiving?</li>
+<li>What are data repositories?</li>
+<li>What is a DOI, and why is it important?</li>
 </ul>
 </div>
 </div>
@@ -705,16 +1605,246 @@ stability.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that this episode path builds with minimal valid
-content.</li>
+<li>Understand the role of trusted repositories in long-term
+preservation.</li>
+<li>Learn why repositories improve discovery and citation.</li>
+<li>Understand how DOI supports persistence and citation.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>This episode is temporarily reduced to a minimal Workbench-compatible
-placeholder.</p>
+<div id="fair-principles-used-in-data-archiving" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-in-data-archiving" class="callout-inner">
+<h3 class="callout-title">FAIR principles used in data archiving</h3>
+<div class="callout-content">
+<p>Findable:</p>
+<ul>
+<li>FM-F1A Identifier Uniqueness: <a href="https://doi.org/10.25504/FAIRsharing.r49beq" class="external-link uri">https://doi.org/10.25504/FAIRsharing.r49beq</a>
+</li>
+<li>FM-F3 Resource Identifier in Metadata: <a href="https://doi.org/10.25504/FAIRsharing.o8TYnW" class="external-link uri">https://doi.org/10.25504/FAIRsharing.o8TYnW</a>
+</li>
+</ul>
+<p>Accessible:</p>
+<ul>
+<li>FM-A2 Metadata Longevity: <a href="https://doi.org/10.25504/FAIRsharing.A2W4nz" class="external-link uri">https://doi.org/10.25504/FAIRsharing.A2W4nz</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-is-data-archiving">What is data archiving?<a class="anchor" aria-label="anchor" href="#what-is-data-archiving"></a>
+</h2>
+<hr class="half-width">
+<p>Data archiving is the long-term preservation of research data and
+related digital objects.</p>
+<p>Funders and journals increasingly expect enough of the data and
+methods to be preserved so that results can be inspected, understood,
+and, where possible, replicated.</p>
+</section><section><h2 class="section-heading" id="what-are-data-repositories">What are data repositories?<a class="anchor" aria-label="anchor" href="#what-are-data-repositories"></a>
+</h2>
+<hr class="half-width">
+<p>Data repositories are storage locations for digital objects such as
+datasets, code, supplementary files, and metadata.</p>
+<p>Repositories make research outputs easier to find and can also
+provide:</p>
+<ul>
+<li>preservation</li>
+<li>backup</li>
+<li>citation infrastructure</li>
+<li>versioning</li>
+<li>controlled access options</li>
+</ul>
+<p>Examples:</p>
+<table class="table">
+<colgroup>
+<col width="50%">
+<col width="50%">
+</colgroup>
+<thead><tr>
+<th>Repository</th>
+<th>About</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>DataverseNL</td>
+<td>Community repository supporting Dutch universities and research
+centers</td>
+</tr>
+<tr>
+<td>4TU Data</td>
+<td>Repository originally developed by Dutch technical universities</td>
+</tr>
+<tr>
+<td>PANGAEA</td>
+<td>Domain repository for Earth and environmental sciences</td>
+</tr>
+<tr>
+<td>Figshare</td>
+<td>General-purpose repository for many digital object types</td>
+</tr>
+</tbody>
+</table>
+<div id="general-repository-recommendations" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="general-repository-recommendations" class="callout-inner">
+<h3 class="callout-title">General repository recommendations</h3>
+<div class="callout-content">
+<ul>
+<li>Zenodo: <a href="https://zenodo.org/" class="external-link uri">https://zenodo.org/</a>
+</li>
+<li>SURF Repository: <a href="https://repository.surfsara.nl/" class="external-link uri">https://repository.surfsara.nl/</a>
+</li>
+<li>DataverseNL: <a href="https://dataverse.nl/" class="external-link uri">https://dataverse.nl/</a>
+</li>
+</ul>
+<p>Aim for a community repository when it exists. If not, a trusted
+general repository is usually better than leaving data only on a local
+drive or project website.</p>
+</div>
+</div>
+</div>
+<p>Typical strengths of general-purpose repositories include:</p>
+<ul>
+<li>persistent identifiers</li>
+<li>rapid publication</li>
+<li>versioning</li>
+<li>backup and preservation</li>
+<li>usage statistics</li>
+<li>open or restricted access modes</li>
+</ul>
+<figure><img src="https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png" alt="Comparison chart of repository options" class="figure mx-auto d-block"><div class="figcaption">Repository comparison matrix</div>
+</figure><p>Additional registries that help identify suitable repositories:</p>
+<ul>
+<li>re3data: <a href="https://www.re3data.org/" class="external-link uri">https://www.re3data.org/</a>
+</li>
+<li>PLOS recommended repositories: <a href="https://journals.plos.org/plosone/s/recommended-repositories" class="external-link uri">https://journals.plos.org/plosone/s/recommended-repositories</a>
+</li>
+<li>NIH repositories guidance: <a href="https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data" class="external-link uri">https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data</a>
+</li>
+<li>OpenDOAR: <a href="https://v2.sherpa.ac.uk/opendoar/" class="external-link uri">https://v2.sherpa.ac.uk/opendoar/</a>
+</li>
+</ul>
+<p>For context on the original Dataverse model, see Harvard
+Dataverse:</p>
+<ul>
+<li><a href="https://dataverse.harvard.edu/dataverse/harvard" class="external-link uri">https://dataverse.harvard.edu/dataverse/harvard</a></li>
+<li>Introductory video: <a href="https://www.youtube.com/watch?v=MPQ0Tpgaxt0" class="external-link uri">https://www.youtube.com/watch?v=MPQ0Tpgaxt0</a>
+</li>
+</ul>
+<div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit <a href="https://dataverse.org/" class="external-link uri">https://dataverse.org/</a> and inspect the current
+installation map and the DataverseNL portal.</p>
+<p>Answer:</p>
+<ul>
+<li>How many Dataverse installations are listed now?</li>
+<li>How many are in the Netherlands?</li>
+<li>Roughly how many datasets are visible in DataverseNL at the time of
+your visit?</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>These counts change over time, so record the values you observe at
+the moment you complete the exercise rather than relying on historical
+numbers from older lesson versions.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="what-is-a-doi-and-why-is-it-important">What is a DOI, and why is it important?<a class="anchor" aria-label="anchor" href="#what-is-a-doi-and-why-is-it-important"></a>
+</h2>
+<hr class="half-width">
+<p>DOI is a persistent identifier commonly used for articles, datasets,
+reports, and other scholarly outputs.</p>
+<p>Two major DOI registration services in research are:</p>
+<ul>
+<li>Crossref: <a href="https://www.crossref.org/" class="external-link uri">https://www.crossref.org/</a>
+</li>
+<li>DataCite: <a href="https://datacite.org/" class="external-link uri">https://datacite.org/</a>
+</li>
+</ul>
+<p>A DOI has three conceptual parts:</p>
+<ul>
+<li>the resolver service</li>
+<li>the registrant prefix</li>
+<li>the locally assigned suffix</li>
+</ul>
+<figure><img src="https://authorcarpentry.github.io/CODATA-RDA-Trieste-2016/Figure1.jpg" alt="Illustration of DOI components" class="figure mx-auto d-block"><div class="figcaption">Diagram explaining DOI structure</div>
+</figure><p>DOIs make resources easier to cite and track, and they continue
+resolving even when storage details change.</p>
+<div id="exercise-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Upload a test dataset to the DataverseNL demo or another training
+repository:</p>
+<ol style="list-style-type: decimal">
+<li>Download the mock dataset: <a href="data/MOCK_DATA_BOOTCAMP.xlsx">MOCK DATA</a>
+</li>
+<li>Deposit it in a suitable demo or sandbox repository</li>
+<li>Record the DOI or persistent identifier you receive</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>There is no single correct answer. The point is to experience how a
+repository assigns persistent identifiers and what metadata are required
+before publication.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>You conducted personal interviews for an ethnographic migration
+study. The raw transcripts cannot be openly shared, even under
+restricted access.</p>
+<p>How should archiving be handled in this case? What metadata, derived
+outputs, or access statements should still be preserved and
+published?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -723,12 +1853,18 @@ placeholder.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>This episode is being restored conservatively to preserve build
-stability.</li>
+<li>Repositories improve preservation, discovery, and citation.</li>
+<li>Prefer a trusted community repository when one fits your
+discipline.</li>
+<li>General repositories such as Zenodo still provide a strong baseline
+for FAIR publication.</li>
+<li>DOI is a key persistent identifier for datasets and
+publications.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-rich-metadata"><p>Content from <a href="rich-metadata.html">Make machines work for you</a></p>
+</div>
+</section></section><section id="aio-rich-metadata"><p>Content from <a href="rich-metadata.html">Make machines work for you</a></p>
 <hr>
 <p>Last updated on 2026-04-06 |
 
@@ -744,7 +1880,9 @@ stability.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>Why does rich metadata matter?</li>
+<li>What is the difference between metadata and rich metadata?</li>
+<li>How can a rich metadata file be created?</li>
+<li>Where should rich metadata be stored?</li>
 </ul>
 </div>
 </div>
@@ -754,16 +1892,208 @@ stability.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that this episode path builds with minimal valid
-content.</li>
+<li>Understand the difference between plain metadata and rich
+metadata.</li>
+<li>Learn where machine-readable metadata comes from and how to generate
+it.</li>
+<li>Identify good places to publish rich metadata files.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>This episode is temporarily reduced to a minimal Workbench-compatible
-placeholder.</p>
+<div id="fair-principles-used-for-rich-metadata" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-for-rich-metadata" class="callout-inner">
+<h3 class="callout-title">FAIR principles used for rich metadata</h3>
+<div class="callout-content">
+<p>Findable:</p>
+<ul>
+<li>FM-F2 Machine-readability of Metadata: <a href="https://doi.org/10.25504/FAIRsharing.ztr3n9" class="external-link uri">https://doi.org/10.25504/FAIRsharing.ztr3n9</a>
+</li>
+</ul>
+<p>Interoperable:</p>
+<ul>
+<li>FM-I1 Use a Knowledge Representation Language: <a href="https://doi.org/10.25504/FAIRsharing.jLpL6i" class="external-link uri">https://doi.org/10.25504/FAIRsharing.jLpL6i</a>
+</li>
+<li>FM-I2 Use FAIR Vocabularies: <a href="https://doi.org/10.25504/FAIRsharing.0A9kNV" class="external-link uri">https://doi.org/10.25504/FAIRsharing.0A9kNV</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-is-the-difference-between-metadata-and-rich-metadata">What is the difference between metadata and rich metadata?<a class="anchor" aria-label="anchor" href="#what-is-the-difference-between-metadata-and-rich-metadata"></a>
+</h2>
+<hr class="half-width">
+<p>Metadata is data about the data. It describes properties of a digital
+object, such as title, creator, publisher, size, or identifier.</p>
+<figure><img src="fig/FAIRcoursebook-image5_1.png" alt="Example of metadata fields shown in a repository" class="figure mx-auto d-block"><div class="figcaption">Repository metadata example</div>
+</figure><table class="table">
+<thead><tr>
+<th>Metadata attribute</th>
+<th>Example</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Descriptive metadata</td>
+<td>DOI</td>
+</tr>
+<tr>
+<td>Structural metadata</td>
+<td>Data size</td>
+</tr>
+<tr>
+<td>Administrative metadata</td>
+<td>Publisher</td>
+</tr>
+<tr>
+<td>Statistical metadata</td>
+<td>Number of files</td>
+</tr>
+</tbody>
+</table>
+<p>Rich metadata goes further. It is:</p>
+<ul>
+<li>standardized</li>
+<li>structured</li>
+<li>machine-readable</li>
+<li>based on shared vocabularies</li>
+<li>suitable for search engines and automated reuse</li>
+</ul>
+<div id="rich-metadata-is-more-than-plain-text" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="rich-metadata-is-more-than-plain-text" class="callout-inner">
+<h3 class="callout-title">Rich metadata is more than plain text</h3>
+<div class="callout-content">
+<p>Metadata alone can be descriptive but still hard for machines to
+interpret. Rich metadata uses a structured format such as JSON-LD and
+shared schemas such as Schema.org, DataCite, or Dublin Core.</p>
+</div>
+</div>
+</div>
+<p>Further reading:</p>
+<ul>
+<li>The Turing Way on metadata: <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-metadata.html" class="external-link uri">https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-metadata.html</a>
+</li>
+<li>CESSDA training on documenting data: <a href="https://www.youtube.com/watch?v=cjGz-I0GgKk" class="external-link uri">https://www.youtube.com/watch?v=cjGz-I0GgKk</a>
+</li>
+<li>Google dataset structured data guidance: <a href="https://developers.google.com/search/docs/advanced/structured-data/dataset" class="external-link uri">https://developers.google.com/search/docs/advanced/structured-data/dataset</a>
+</li>
+</ul>
+<p>Additional walkthrough:</p>
+<ul>
+<li>Zenodo metadata video: <a href="https://www.youtube.com/embed/S1qK_TA52e4" class="external-link uri">https://www.youtube.com/embed/S1qK_TA52e4</a>
+</li>
+</ul></section><section><h2 class="section-heading" id="how-can-a-rich-metadata-file-be-created">How can a rich metadata file be created?<a class="anchor" aria-label="anchor" href="#how-can-a-rich-metadata-file-be-created"></a>
+</h2>
+<hr class="half-width">
+<p>Researchers usually do not need to write rich metadata by hand. In
+many cases, it can be exported from a repository or generated through a
+form-based tool.</p>
+<table class="table">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr>
+<th>Platform</th>
+<th>Source</th>
+<th>Online</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Dataverse export button</td>
+<td><a href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/Q80QUE" class="external-link uri">https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/Q80QUE</a></td>
+<td>Yes</td>
+<td>Fastest path for datasets</td>
+</tr>
+<tr>
+<td>FAIR Metadata Wizard</td>
+<td><a href="https://maastrichtu-ids.github.io/fair-metadata-wizard/" class="external-link uri">https://maastrichtu-ids.github.io/fair-metadata-wizard/</a></td>
+<td>Yes</td>
+<td>Tailored to scientific projects</td>
+</tr>
+<tr>
+<td>NSDRA JSON-LD generator</td>
+<td><a href="https://nsdra.github.io/nsdra-jsonld-metadata-generator-webapp/#" class="external-link uri">https://nsdra.github.io/nsdra-jsonld-metadata-generator-webapp/#</a></td>
+<td>Yes</td>
+<td>Community-specific but adaptable</td>
+</tr>
+<tr>
+<td>Steal Our JSON-LD</td>
+<td><a href="https://jsonld.com/json-ld-generator/" class="external-link uri">https://jsonld.com/json-ld-generator/</a></td>
+<td>Yes</td>
+<td>General-purpose</td>
+</tr>
+<tr>
+<td>JSON-LD Schema Generator for SEO</td>
+<td><a href="https://hallanalysis.com/json-ld-generator/" class="external-link uri">https://hallanalysis.com/json-ld-generator/</a></td>
+<td>Yes</td>
+<td>Broad but SEO-oriented</td>
+</tr>
+</tbody>
+</table>
+<figure><img src="fig/FAIRcoursebook-image5_2.png" alt="Repository export interface showing JSON-LD options" class="figure mx-auto d-block"><div class="figcaption">Exporting JSON-LD metadata from a
+repository</div>
+</figure></section><section><h2 class="section-heading" id="where-should-a-rich-metadata-file-be-stored">Where should a rich metadata file be stored?<a class="anchor" aria-label="anchor" href="#where-should-a-rich-metadata-file-be-stored"></a>
+</h2>
+<hr class="half-width">
+<p>A simple rule is:</p>
+<div id="publish-rich-metadata-everywhere-the-data-lives" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="publish-rich-metadata-everywhere-the-data-lives" class="callout-inner">
+<h3 class="callout-title">Publish rich metadata everywhere the data
+lives</h3>
+<div class="callout-content">
+<ul>
+<li>in the project root folder</li>
+<li>in the data repository</li>
+<li>in the GitHub repository</li>
+<li>on the project website</li>
+</ul>
+</div>
+</div>
+</div>
+<p>The exact schema may differ by context, but common choices
+include:</p>
+<ul>
+<li>DataCite Metadata Schema: <a href="https://schema.datacite.org" class="external-link uri">https://schema.datacite.org</a>
+</li>
+<li>Dublin Core: <a href="https://www.dublincore.org" class="external-link uri">https://www.dublincore.org</a>
+</li>
+<li>discipline-specific schemas such as DDI or Darwin Core</li>
+</ul>
+<p>Rich metadata also helps connect publications, datasets, and project
+websites. Without structured metadata, search engines and aggregators
+may not recognize the resource as a dataset at all.</p>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>You are creating a project website for a research consortium.</p>
+<p>How should rich metadata relate to that website? Which information
+belongs in the HTML, which belongs in repository records, and how do
+those pieces work together to improve discovery?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -772,12 +2102,17 @@ placeholder.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>This episode is being restored conservatively to preserve build
-stability.</li>
+<li>Rich metadata combines descriptive metadata with shared vocabularies
+and a structured machine-readable format.</li>
+<li>JSON-LD is a common way to publish rich metadata.</li>
+<li>Repositories can often generate rich metadata automatically.</li>
+<li>Rich metadata should be published anywhere the digital object is
+stored or represented.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-data-reusing"><p>Content from <a href="data-reusing.html">Responsibly reuse</a></p>
+</div>
+</section></section><section id="aio-data-reusing"><p>Content from <a href="data-reusing.html">Responsibly reuse</a></p>
 <hr>
 <p>Last updated on 2026-04-06 |
 
@@ -793,7 +2128,9 @@ stability.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What should be considered when reusing data?</li>
+<li>How should data be cited when reusing a data source?</li>
+<li>How can you check whether data is likely to be reused and
+discovered?</li>
 </ul>
 </div>
 </div>
@@ -803,16 +2140,217 @@ stability.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Confirm that this episode path builds with minimal valid
-content.</li>
+<li>Understand the importance of citing datasets.</li>
+<li>Learn how discoverability testing supports future data reuse.</li>
+<li>Connect reuse to rich metadata and structured web data.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>This episode is temporarily reduced to a minimal Workbench-compatible
-placeholder.</p>
+<div id="fair-principles-used-in-data-reuse" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-in-data-reuse" class="callout-inner">
+<h3 class="callout-title">FAIR principles used in data reuse</h3>
+<div class="callout-content">
+<p>Findable:</p>
+<ul>
+<li>FM-F1B Identifier persistence: <a href="https://doi.org/10.25504/FAIRsharing.TUq8Zj" class="external-link uri">https://doi.org/10.25504/FAIRsharing.TUq8Zj</a>
+</li>
+<li>FM-F4 Indexed in a Searchable Resource: <a href="https://doi.org/10.25504/FAIRsharing.Lcws1N" class="external-link uri">https://doi.org/10.25504/FAIRsharing.Lcws1N</a>
+</li>
+</ul>
+<p>Reusable:</p>
+<ul>
+<li>FM-R1.2 Detailed Provenance: <a href="https://doi.org/10.25504/FAIRsharing.qcziIV" class="external-link uri">https://doi.org/10.25504/FAIRsharing.qcziIV</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="how-should-data-be-cited-when-reusing-a-data-source">How should data be cited when reusing a data source?<a class="anchor" aria-label="anchor" href="#how-should-data-be-cited-when-reusing-a-data-source"></a>
+</h2>
+<hr class="half-width">
+<p>Data reuse means working with an existing research data source rather
+than generating all material from scratch.</p>
+<p>At minimum, a dataset citation should include:</p>
+<ul>
+<li>creator</li>
+<li>publication year</li>
+<li>title</li>
+<li>resource type or version</li>
+<li>publisher</li>
+<li>persistent identifier, usually DOI</li>
+</ul>
+<p>Example citation:</p>
+<blockquote>
+<p>Neff, Roni A.; L. Spiker, Marie; L. Truant, Patricia (2016). Wasted
+Food: U.S. Consumers’ Reported Awareness, Attitudes, and Behaviors. PLOS
+ONE. Dataset. <a href="https://doi.org/10.1371/journal.pone.0127881" class="external-link uri">https://doi.org/10.1371/journal.pone.0127881</a></p>
+</blockquote>
+<p>Original dataset example:</p>
+<ul>
+<li><a href="https://figshare.com/articles/dataset/_Wasted_Food_U_S_Consumers_Reported_Awareness_Attitudes_and_Behaviors_/1445199" class="external-link uri">https://figshare.com/articles/dataset/_Wasted_Food_U_S_Consumers_Reported_Awareness_Attitudes_and_Behaviors_/1445199</a></li>
+</ul>
+<figure><img src="fig/FAIRcoursebook-image6_1.png" alt="Dataset repository page with citation tools" class="figure mx-auto d-block"><div class="figcaption">Repository interface with citation export
+options</div>
+</figure><div id="standard-citations-improve-discoverability" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="standard-citations-improve-discoverability" class="callout-inner">
+<h3 class="callout-title">Standard citations improve
+discoverability</h3>
+<div class="callout-content">
+<p>When datasets are cited in recognizable formats, citation indexes and
+data aggregators can track those references much more effectively.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="how-can-you-check-whether-data-is-likely-to-be-reused-and-discovered">How can you check whether data is likely to be reused and
+discovered?<a class="anchor" aria-label="anchor" href="#how-can-you-check-whether-data-is-likely-to-be-reused-and-discovered"></a>
+</h2>
+<hr class="half-width">
+<p>Datasets are digital objects on the web. To be reused, they must
+first be easy to find. That depends heavily on rich metadata and
+structured web markup.</p>
+<p>Google’s Rich Results Test is one way to inspect whether a dataset
+page exposes structured information machines can recognize:</p>
+<ul>
+<li><a href="https://search.google.com/test/rich-results" class="external-link uri">https://search.google.com/test/rich-results</a></li>
+</ul>
+<p>Example test:</p>
+<ul>
+<li><a href="https://search.google.com/test/rich-results?url=http%3A%2F%2Fdoi.org%2F10.1594%2FPANGAEA.750883" class="external-link uri">https://search.google.com/test/rich-results?url=http%3A%2F%2Fdoi.org%2F10.1594%2FPANGAEA.750883</a></li>
+</ul>
+<p><img src="fig/FAIRcoursebook-image6_2.png" alt="Entering a dataset URL in Google Rich Results Test" class="figure"><img src="fig/FAIRcoursebook-image6_3.png" alt="Test results after checking a dataset URL" class="figure"></p>
+<div id="without-rich-metadata-data-can-be-effectively-invisible" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="without-rich-metadata-data-can-be-effectively-invisible" class="callout-inner">
+<h3 class="callout-title">Without rich metadata, data can be effectively
+invisible</h3>
+<div class="callout-content">
+<p>A dataset may be accessible to humans through a webpage and still
+remain hard for search engines or data aggregators to interpret.</p>
+</div>
+</div>
+</div>
+<div id="exercise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Visit the Culture Crime News database:</p>
+<p><a href="https://news.culturecrime.org/all" class="external-link uri">https://news.culturecrime.org/all</a></p>
+<p>Run Google’s Rich Results Test on that resource.</p>
+<p>Did the test detect a structured dataset?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>No. This is a useful reminder that a human-friendly page is not
+automatically a machine-friendly dataset description.</p>
+</div>
+</div>
+</div>
+</div>
+<p>If you want to go further, review Google’s explanation of the Rich
+Results Test:</p>
+<ul>
+<li><a href="https://support.google.com/webmasters/answer/7445569" class="external-link uri">https://support.google.com/webmasters/answer/7445569</a></li>
+</ul>
+<p>Search engines and data aggregators rely on shared standards such
+as:</p>
+<ul>
+<li>Schema.org dataset markup: <a href="https://schema.org/Dataset" class="external-link uri">https://schema.org/Dataset</a>
+</li>
+<li>DCAT: <a href="https://www.w3.org/TR/vocab-dcat/" class="external-link uri">https://www.w3.org/TR/vocab-dcat/</a>
+</li>
+<li>Semantic Web concepts more broadly: <a href="https://en.wikipedia.org/wiki/Semantic_Web" class="external-link uri">https://en.wikipedia.org/wiki/Semantic_Web</a>
+</li>
+</ul>
+<p>An example of dataset-oriented JSON-LD:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="dt">"@context"</span><span class="fu">:</span> <span class="st">"https://schema.org/"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="dt">"@type"</span><span class="fu">:</span> <span class="st">"Dataset"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Dummy Data"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>  <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"This is an example for the coursebook"</span><span class="fu">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a>  <span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://example.com"</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>  <span class="dt">"identifier"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"https://doi.org/XXXXXX"</span><span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  <span class="dt">"license"</span><span class="fu">:</span> <span class="st">"https://creativecommons.org/publicdomain/zero/1.0/"</span><span class="fu">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>  <span class="dt">"isAccessibleForFree"</span><span class="fu">:</span> <span class="kw">true</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+</div>
+<div id="exercise-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise</h3>
+<div class="callout-content">
+<p>Go back to the dataset you uploaded in the data archiving episode and
+export its rich metadata as JSON-LD.</p>
+<p>What similarities do you notice between that export and the example
+above?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>You should usually see:</p>
+<ul>
+<li>JSON-LD as the format</li>
+<li>Schema.org or another shared schema as the vocabulary context</li>
+<li>
+<code>Dataset</code> or an equivalent type</li>
+<li>explicit fields for identifier, title, description, and license</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="discussion" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="discussion" class="callout-inner">
+<h3 class="callout-title">Discussion</h3>
+<div class="callout-content">
+<p>Pick one or more datasets used in this lesson and test them with a
+FAIR assessment tool such as FAIR enough:</p>
+<p><a href="https://fair-enough.semanticscience.org/" class="external-link uri">https://fair-enough.semanticscience.org/</a></p>
+<p>What do the scores suggest about reuse readiness, and which missing
+metadata or links would most improve them?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -821,12 +2359,18 @@ placeholder.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>This episode is being restored conservatively to preserve build
-stability.</li>
+<li>Reuse starts with clear citation and persistent identifiers.</li>
+<li>Rich metadata is essential for search engines and aggregators to
+discover datasets.</li>
+<li>Human-friendly web pages are not enough; machine-readable structure
+matters.</li>
+<li>Testing discoverability is a practical part of making data
+reusable.</li>
 </ul>
 </div>
 </div>
-</div></section>
+</div>
+</section></section>
 </div>
     </main>
 </div>

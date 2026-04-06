@@ -242,12 +242,21 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         6. Make machines work for you
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#what-is-the-difference-between-metadata-and-rich-metadata">What is the difference between metadata and rich metadata?</a></li>
+<li><a href="#how-can-a-rich-metadata-file-be-created">How can a rich metadata file be created?</a></li>
+<li><a href="#where-should-a-rich-metadata-file-be-stored">Where should a rich metadata file be stored?</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -340,7 +349,9 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>Why does rich metadata matter?</li>
+<ul><li>What is the difference between metadata and rich metadata?</li>
+<li>How can a rich metadata file be created?</li>
+<li>Where should rich metadata be stored?</li>
 </ul></div>
 </div>
 </div>
@@ -348,15 +359,152 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Confirm that this episode path builds with minimal valid
-content.</li>
+<ul><li>Understand the difference between plain metadata and rich
+metadata.</li>
+<li>Learn where machine-readable metadata comes from and how to generate
+it.</li>
+<li>Identify good places to publish rich metadata files.</li>
 </ul></div>
 </div>
 </div>
 </div>
 </div>
-<p>This episode is temporarily reduced to a minimal Workbench-compatible
-placeholder.</p>
+<div id="fair-principles-used-for-rich-metadata" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="fair-principles-used-for-rich-metadata" class="callout-inner">
+<h3 class="callout-title">FAIR principles used for rich metadata</h3>
+<div class="callout-content">
+<p>Findable:</p>
+<ul><li>FM-F2 Machine-readability of Metadata: <a href="https://doi.org/10.25504/FAIRsharing.ztr3n9" class="external-link uri">https://doi.org/10.25504/FAIRsharing.ztr3n9</a>
+</li>
+</ul><p>Interoperable:</p>
+<ul><li>FM-I1 Use a Knowledge Representation Language: <a href="https://doi.org/10.25504/FAIRsharing.jLpL6i" class="external-link uri">https://doi.org/10.25504/FAIRsharing.jLpL6i</a>
+</li>
+<li>FM-I2 Use FAIR Vocabularies: <a href="https://doi.org/10.25504/FAIRsharing.0A9kNV" class="external-link uri">https://doi.org/10.25504/FAIRsharing.0A9kNV</a>
+</li>
+</ul></div>
+</div>
+</div>
+<section><h2 class="section-heading" id="what-is-the-difference-between-metadata-and-rich-metadata">What is the difference between metadata and rich metadata?<a class="anchor" aria-label="anchor" href="#what-is-the-difference-between-metadata-and-rich-metadata"></a></h2>
+<hr class="half-width"><p>Metadata is data about the data. It describes properties of a digital
+object, such as title, creator, publisher, size, or identifier.</p>
+<figure><img src="../fig/FAIRcoursebook-image5_1.png" alt="Example of metadata fields shown in a repository" class="figure mx-auto d-block"><div class="figcaption">Repository metadata example</div>
+</figure><table class="table"><thead><tr><th>Metadata attribute</th>
+<th>Example</th>
+</tr></thead><tbody><tr><td>Descriptive metadata</td>
+<td>DOI</td>
+</tr><tr><td>Structural metadata</td>
+<td>Data size</td>
+</tr><tr><td>Administrative metadata</td>
+<td>Publisher</td>
+</tr><tr><td>Statistical metadata</td>
+<td>Number of files</td>
+</tr></tbody></table><p>Rich metadata goes further. It is:</p>
+<ul><li>standardized</li>
+<li>structured</li>
+<li>machine-readable</li>
+<li>based on shared vocabularies</li>
+<li>suitable for search engines and automated reuse</li>
+</ul><div id="rich-metadata-is-more-than-plain-text" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="rich-metadata-is-more-than-plain-text" class="callout-inner">
+<h3 class="callout-title">Rich metadata is more than plain text</h3>
+<div class="callout-content">
+<p>Metadata alone can be descriptive but still hard for machines to
+interpret. Rich metadata uses a structured format such as JSON-LD and
+shared schemas such as Schema.org, DataCite, or Dublin Core.</p>
+</div>
+</div>
+</div>
+<p>Further reading:</p>
+<ul><li>The Turing Way on metadata: <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-metadata.html" class="external-link uri">https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-metadata.html</a>
+</li>
+<li>CESSDA training on documenting data: <a href="https://www.youtube.com/watch?v=cjGz-I0GgKk" class="external-link uri">https://www.youtube.com/watch?v=cjGz-I0GgKk</a>
+</li>
+<li>Google dataset structured data guidance: <a href="https://developers.google.com/search/docs/advanced/structured-data/dataset" class="external-link uri">https://developers.google.com/search/docs/advanced/structured-data/dataset</a>
+</li>
+</ul><p>Additional walkthrough:</p>
+<ul><li>Zenodo metadata video: <a href="https://www.youtube.com/embed/S1qK_TA52e4" class="external-link uri">https://www.youtube.com/embed/S1qK_TA52e4</a>
+</li>
+</ul></section><section><h2 class="section-heading" id="how-can-a-rich-metadata-file-be-created">How can a rich metadata file be created?<a class="anchor" aria-label="anchor" href="#how-can-a-rich-metadata-file-be-created"></a></h2>
+<hr class="half-width"><p>Researchers usually do not need to write rich metadata by hand. In
+many cases, it can be exported from a repository or generated through a
+form-based tool.</p>
+<table class="table"><colgroup><col width="25%"><col width="25%"><col width="25%"><col width="25%"></colgroup><thead><tr><th>Platform</th>
+<th>Source</th>
+<th>Online</th>
+<th>Note</th>
+</tr></thead><tbody><tr><td>Dataverse export button</td>
+<td><a href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/Q80QUE" class="external-link uri">https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/Q80QUE</a></td>
+<td>Yes</td>
+<td>Fastest path for datasets</td>
+</tr><tr><td>FAIR Metadata Wizard</td>
+<td><a href="https://maastrichtu-ids.github.io/fair-metadata-wizard/" class="external-link uri">https://maastrichtu-ids.github.io/fair-metadata-wizard/</a></td>
+<td>Yes</td>
+<td>Tailored to scientific projects</td>
+</tr><tr><td>NSDRA JSON-LD generator</td>
+<td><a href="https://nsdra.github.io/nsdra-jsonld-metadata-generator-webapp/#" class="external-link uri">https://nsdra.github.io/nsdra-jsonld-metadata-generator-webapp/#</a></td>
+<td>Yes</td>
+<td>Community-specific but adaptable</td>
+</tr><tr><td>Steal Our JSON-LD</td>
+<td><a href="https://jsonld.com/json-ld-generator/" class="external-link uri">https://jsonld.com/json-ld-generator/</a></td>
+<td>Yes</td>
+<td>General-purpose</td>
+</tr><tr><td>JSON-LD Schema Generator for SEO</td>
+<td><a href="https://hallanalysis.com/json-ld-generator/" class="external-link uri">https://hallanalysis.com/json-ld-generator/</a></td>
+<td>Yes</td>
+<td>Broad but SEO-oriented</td>
+</tr></tbody></table><figure><img src="../fig/FAIRcoursebook-image5_2.png" alt="Repository export interface showing JSON-LD options" class="figure mx-auto d-block"><div class="figcaption">Exporting JSON-LD metadata from a
+repository</div>
+</figure></section><section><h2 class="section-heading" id="where-should-a-rich-metadata-file-be-stored">Where should a rich metadata file be stored?<a class="anchor" aria-label="anchor" href="#where-should-a-rich-metadata-file-be-stored"></a></h2>
+<hr class="half-width"><p>A simple rule is:</p>
+<div id="publish-rich-metadata-everywhere-the-data-lives" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="publish-rich-metadata-everywhere-the-data-lives" class="callout-inner">
+<h3 class="callout-title">Publish rich metadata everywhere the data
+lives</h3>
+<div class="callout-content">
+<ul><li>in the project root folder</li>
+<li>in the data repository</li>
+<li>in the GitHub repository</li>
+<li>on the project website</li>
+</ul></div>
+</div>
+</div>
+<p>The exact schema may differ by context, but common choices
+include:</p>
+<ul><li>DataCite Metadata Schema: <a href="https://schema.datacite.org" class="external-link uri">https://schema.datacite.org</a>
+</li>
+<li>Dublin Core: <a href="https://www.dublincore.org" class="external-link uri">https://www.dublincore.org</a>
+</li>
+<li>discipline-specific schemas such as DDI or Darwin Core</li>
+</ul><p>Rich metadata also helps connect publications, datasets, and project
+websites. Without structured metadata, search engines and aggregators
+may not recognize the resource as a dataset at all.</p>
+<div id="scenario" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="scenario" class="callout-inner">
+<h3 class="callout-title">Scenario</h3>
+<div class="callout-content">
+<p>You are creating a project website for a research consortium.</p>
+<p>How should rich metadata relate to that website? Which information
+belongs in the HTML, which belongs in repository records, and how do
+those pieces work together to improve discovery?</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -364,15 +512,16 @@ placeholder.</p>
 <span class="callout-header">Key Points</span>
 <div class="callout-inner">
 <div class="callout-content">
-<ul><li>This episode is being restored conservatively to preserve build
-stability.</li>
+<ul><li>Rich metadata combines descriptive metadata with shared vocabularies
+and a structured machine-readable format.</li>
+<li>JSON-LD is a common way to publish rich metadata.</li>
+<li>Repositories can often generate rich metadata automatically.</li>
+<li>Rich metadata should be published anywhere the digital object is
+stored or represented.</li>
 </ul></div>
 </div>
 </div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/data-archiving.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/data-reusing.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
