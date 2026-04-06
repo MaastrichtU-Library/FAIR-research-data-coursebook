@@ -73,26 +73,6 @@ Standard licenses are useful when they already match your reuse conditions.
 If they do not, a custom terms-of-use statement or data use agreement may be
 more appropriate.
 
-::::::::::::::::::::::::::::::::::::: challenge
-
-## Exercise
-
-You are sharing a small public dataset.
-
-What minimum information should you include so that another researcher can
-understand whether they may reuse it?
-
-:::::::::::::::::::::::: solution
-
-- what the statement applies to
-- which license or reuse condition applies
-- how to provide attribution
-- any important warnings, limitations, or exclusions
-
-:::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - A data terms-of-use statement explains the basis for access and reuse.
