@@ -1,25 +1,25 @@
 ---
-title: "1. Set up your own terms"
+title: Second Episode
 teaching: 10
 exercises: 15
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- What are data terms of use?
+- What is the second episode for?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Confirm that this episode path builds with minimal valid content.
+- Confirm that a second generic episode builds with minimal valid content.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-This episode is temporarily reduced to isolate a Workbench rendering error.
+This is a generic placeholder used to test whether any second episode builds.
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- The `terms-of-use.md` episode file is being tested with minimal valid content.
+- A generic second episode is being tested with minimal valid content.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
