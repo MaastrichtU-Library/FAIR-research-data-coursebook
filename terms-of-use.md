@@ -41,7 +41,7 @@ Reusable:
 Data terms of use are a textual statement that sets out the rules, conditions,
 licenses, and legal considerations that govern reuse of a data source.
 
-![Terms of use example from the World Bank](fig/FAIRcoursebook-image1_1.png){alt='Screenshot of a data terms of use page'}
+World Bank terms of use pages are a common example of dataset reuse conditions.
 
 Examples:
 
@@ -50,7 +50,7 @@ Examples:
 - Numbeo terms of use:
   [https://www.numbeo.com/common/terms_of_use.jsp](https://www.numbeo.com/common/terms_of_use.jsp)
 
-![Terms of use example from Numbeo](fig/FAIRcoursebook-image1_2.png){alt='Screenshot of another terms of use page'}
+Numbeo also publishes a terms-of-use page that illustrates similar reuse rules.
 
 These examples show that terms of use usually describe the resource, the
 conditions under which it may be reused, and any expectations around
@@ -61,12 +61,10 @@ attribution or restrictions.
 As a minimum, a data terms of use statement should cover the following
 elements:
 
-| Section | Description | Example |
-| --- | --- | --- |
-| Description | What the statement refers to and which digital objects it covers | "These terms apply to the Happy Dataset." |
-| License | Under which conditions reuse is allowed | "The Happy Dataset is in the public domain." |
-| Attribution | How the data should be cited or acknowledged | "Please cite the Happy Dataset." |
-| Disclaimer | Important limitations or caveats | "The last 100 records may contain selection bias." |
+- Description: what the statement refers to and which digital objects it covers.
+- License: under which conditions reuse is allowed.
+- Attribution: how the data should be cited or acknowledged.
+- Disclaimer: important limitations or caveats.
 
 Depending on the context, the statement may need additional clauses for
 multiple databases, sensitive data, embargoes, or obligations coming from a
